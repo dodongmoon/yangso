@@ -336,7 +336,7 @@ export const problems: Problem[] = [
             "입자 크기가 1~5µm인 미세분진은 진폐증(pneumoconiosis)을 일으킬 수 있다.",
             "특발성 폐섬유화증(idiopathic pulmonary fibrosis)은 주로 양쪽 폐하엽에서 호발한다."
         ],
-        answer: "2"
+        answer: "3"
     },
     {
         id: 24,
