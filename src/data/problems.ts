@@ -774,10 +774,10 @@ export const problems: Problem[] = [
         question: "61세 남자가 1년 전에 심근경색증을 앓았다. 환자의 혈청에서 1년 전보다 수치가 감소되었을 것으로 기대되는 것은?",
         options: [
             "Cholesterol",
-            "Renin",
             "Glucose",
-            "Calcium",
-            "Potassium"
+            "Potassium",
+            "Renin",
+            "Calcium"
         ],
         answer: "1"
     },
