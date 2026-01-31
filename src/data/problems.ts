@@ -641,7 +641,7 @@ export const problems: Problem[] = [
         id: 46,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "30세 여자가 5개월 전부터 오른쪽 눈의 시력이 떨어지고 양쪽 팔이 차갑고 감각이 둔해진다며 내원하였다. 체온 36.7°C, 혈압 100/70 mmHg, 요골동맥의 맥박(radial pulses)은 촉진되지 않았으나 대퇴동맥의 맥박(femoral pulses)은 강하게 느껴졌다. 양팔의 청색증이 관찰되었고 ANA test는 음성이었다. 가장 의심되는 질환은?",
+        question: "30세 여자가 5개월 전부터 오른쪽 눈의 시력이 떨어지고 양쪽 팔이 차갑고 감각이 둔해진다며 내원하였다. 의학적 검사소견은 다음과 같다. 체온 36.7°C, 혈압 100/70mmHg, 요골동맥의 맥박(radial pulses)은 촉진되지 않았으나 대퇴동맥의 맥박(femoral pulses)은 강하게 느껴졌다. 양팔의 감각은 떨어지고 청색증이 관찰되었지만 붓거나 열감은 없었다. 혈액검사에서 당 74mg/dL, creatinine 1mg/dL 총 cholesterol 165mg/dL, ANA(anti-nuclear antibody) test는 음성이었다. 가장 의심되는 질환은?",
         options: [
             "복부 대동맥류(abdominal aneurysm)",
             "대동맥박리(aortic dissection)",
@@ -655,7 +655,7 @@ export const problems: Problem[] = [
         id: 47,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "3세 여아 2일 전부터 열나고 손, 발이 붓고 붉어져 내원했다. 신체검사에서 피부가 벗겨지는 발진, 입과 손발바닥 발적, 목 주변 림프절 종창이 관찰되었다. 이 질환을 치료하지 않는다면 발생할 가능성이 가장 높은 합병증은?",
+        question: "3세 여아 2일 전부터 열나고 손, 발이 붓고 붉어져 내원했다. 신체검사에서 체온 37.8°C, 피부가 벗겨지는 발진, 입과 손바닥, 발바닥은 붉고 손, 발은 부어 있으며, 목 주변 림프절 종창이 관찰되었다. 환아의 증상은 면역글로불린요법으로 호전되었다. 만이루이 질환을 치료하지 않는다면 발생할 가능성이 가장 높은 합병증은?",
         options: [
             "천식(Asthma)",
             "사구체신염(Glomerulonephritis)",
@@ -684,7 +684,7 @@ export const problems: Problem[] = [
         id: 50,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "평소 건강했던 49세 여자가 지난 6개월 동안 4차례나 갑자기 의식을 잃고 쓰러졌다. 4번째 쓰러졌을 때에는 6시간 동안 의식이 회복되지 않았고 의식회복 후에도 왼쪽 팔에 힘이 빠지고 말을 제대로 하지 못했다. 체온과 혈압은 정상이었고 경동맥 초음파는 특이소견이 없었다. 가장 가능성이 높은 질환은?",
+        question: "평소 건강했던 49세 여자가 지난 6개월 동안 4차례나 갑자기 의식을 잃고 쓰러졌다. 3번은 단 몇 분간만 의식이 없었는데 1개월 전 4번째 쓰러졌을 때에는 6시간 동안 의식이 회복되지 않았고 의식회복 후에도 왼쪽 팔에 힘이 빠지고 말을 제대로 하지 못했다. 신체검사에서 체온과 혈압은 정상이었고 경동맥 초음파는 특이소견은 관찰되지 않았다. 가장 가능성이 높은 질환은?",
         options: [
             "심장막 삼출(pericardial effusion)",
             "좌심방 점액종(left atrial myxoma)",
@@ -713,7 +713,7 @@ export const problems: Problem[] = [
         id: 52,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "12세 소년이 3주 전 인후염(group A β-hemolytic streptococcus)을 앓았다. 현재 청진 시 양쪽 폐에 수포음(crackles)이 들리고 급성 좌심실부전 증상과 심방세동이 발생했다. 좌심부전을 초래했던 원인으로 가장 가능성이 높은 것은?",
+        question: "12세 소년이 열나고 목이 따가워 3주 전에 내원했었다. 당시 인후 배양검사에서 group A β-hemolytic streptococcus)가 검출되었다. 현재는 체온 36.6°C, 심박동수 85/min, 호흡수 18/min, 혈압 90/50 mmHg이다. 청진 시 양쪽 폐에 수포음(crackles)이 들렸다. 입원 2일째 급성 좌심실부전 증상과 심방세동이 여러 번 발생했다. 다음 중 좌심부전을 초래했던 원인으로 가장 가능성이 높은 것은?",
         options: [
             "심근염(Myocarditis)",
             "아밀로이드증(Amyloidosis)",
@@ -742,7 +742,7 @@ export const problems: Problem[] = [
         id: 54,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "좌심실 후면, 하부 심실중격의 후방 1/3에 심근경색증이 발생하였다면, 다음 중 폐쇄된 관상동맥은?",
+        question: "전층심근경색증은 관상동맥의 폐쇄에 의한 이들의 분포영역에서 일어난다. 좌심실 후면, 하부와 심실중격의 후방 1/3에 심근경색증이 발생하였다면, 다음 중 폐쇄된 관상동맥은?",
         options: [
             "left anterior descending",
             "right anterior descending",
@@ -771,7 +771,7 @@ export const problems: Problem[] = [
         id: 56,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "61세 남자가 1년 전에 심근경색증을 앓았다. 환자의 혈청에서 1년 전보다 수치가 감소되었을 것으로 기대되는 것은?",
+        question: "61세 남자가 1년 전에 심근경색증을 앓았었는데 재발을 방지하기 위하여 운동과 식이요법을 병행하고 있다. 환자의 혈청에서 1년 전보다 수치가 감소되었을 것으로 기대되는 것은?",
         options: [
             "Cholesterol",
             "Glucose",
@@ -785,7 +785,7 @@ export const problems: Problem[] = [
         id: 57,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "63세 남자가 갑작스럽게 쥐어짜는 듯한 흉통이 발생하여 내원하였다. 심전도에서 ST 상승, 혈액검사에서 CK-MB 및 Troponin I의 증가가 관찰되었다. 상기 증상을 초래했을 가능성이 가장 높은 원인은?",
+        question: "63세 남자가 갑작스럽게 쥐어짜는 듯한 흉통이 발생하여 내원하였다. 통증은 어깨로도 방사되었고, 30분 이상 지속되고 있다. 고혈압과 이상지질혈증의 병력이 있었다. 심전도에서 ST 상승, 혈액검사에서 CK-MB 및 Troponin I의 증가가 관찰되었다. 상기 증상을 초래했을 가능성이 가장 높은 원인은?",
         options: [
             "류마티스 심장병",
             "관상동맥의 죽상경화증",
@@ -799,7 +799,7 @@ export const problems: Problem[] = [
         id: 58,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "대부분 죽상판의 파괴로 인한 혈전형성 및 혈관수축으로 인하여 휴식상태 혹은 경한 운동 시에도 흉통이 발생하나 15분 이상 지속되지는 않으며, 니트로글리세린에 잘 반응하지 않는 허혈심장병은?",
+        question: "대부분 죽상판의 파괴로 인한 혈전형성 및 혈관수축으로 인하여 휴식상태 혹은 경한 운동 시에도 흉통이 발생하나 15분 이상 지속되지는 않으며, 니트로글리세린(혈관확장제)에 잘 반응하지 않는 허혈심장병(ischemic heart disease)은?",
         options: [
             "안정 협심증(stable angina)",
             "불안정 협심증 (unstable angina)",
@@ -858,7 +858,7 @@ export const problems: Problem[] = [
         id: 62,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "허혈심장병, 고혈압, 판막질환 등에 의해 발병하며 폐부종, 폐출혈, 급성세뇨관괴사, 저산소뇌손상을 초래하는 질환은?",
+        question: "허혈심장병, 고혈압, 대동맥판 또는 승모판질환, 심근질환에 의해 발병하는 질환으로 폐울혈, 폐출혈, 급성세뇨관괴사, 저산소뇌손상을 초래하는 질환은?",
         options: [
             "좌심부전(left-sided heart failure)",
             "우심부전(right-sided heart failure)",
