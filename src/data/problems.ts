@@ -698,7 +698,7 @@ export const problems: Problem[] = [
         id: 51,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "유소아에서 가장 흔한 심장종양으로 거미세포(spider cell)를 특징으로 보이는 종양?",
+        question: "유소아에서 가장 흔한 심장종양으로 그림과 같이 거미세포(spider cell)를 특징으로 보이는 종양?",
         options: [
             "지방종(lipoma)",
             "점액종(myxoma)",
@@ -727,7 +727,7 @@ export const problems: Problem[] = [
         id: 53,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "65세 여자가 2일 동안 점점 심해지는 호흡곤란이 발생하여 내원하였다. 입원 치료 중 갑자기 심정지로 사망하였다. 가장 가능성이 높은 진단?",
+        question: "65세 여자가 2일 동안 점점 심해지는 호흡곤란이 발생하여 내원하였다. 입원 치료 중 갑자기 심정지로 사망하였다. 아래 사진은 부검 시 채취한 좌심실벽의 현미경소견이다. 가장 가능성이 높은 진단?",
         options: [
             "급성 심근경색증(acute myocardial infarction)",
             "바이러스성 심근염(viral myocarditis)",
@@ -756,7 +756,7 @@ export const problems: Problem[] = [
         id: 55,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "86세 남자가 7년 전부터 심해지는 호흡곤란으로 내원하였다. 혈압 135/85 mmHg, 심박동수 76/min으로 불규칙했다. 심장초음파 상에서 좌심실충만(left ventricular filling)이 감소해 있었다. 심근내막 생검 소견을 고려할 때 가장 가능성이 높은 진단은?",
+        question: "86세 남자가 7년 전부터 심해지는 호흡곤란으로 운동하기도 힘들다며 내원하였다. 신체검사상 체온 36.5℃, 혈압 135/85 mmHg, 심박동수 76/min으로 불규칙했다. 흉부청진 시 양측 폐 하부에 수포음(crackles)이 들렸고, 가슴 X-선 촬영에서 경한 심장비대와 폐 울혈이 관찰되었다. 심장초음파 상에서 좌심실충만(left ventricular filling)이 감소해 있었다. 심근내막 생검(endomyocardial biopsy) 소견은 아래 사진과 같다. 다음 중 가장 가능성이 높은 진단은?",
         options: [
             "심장 아밀로이드증(Cardiac amyloidosis)",
             "류마티스성 심장병(Rheumatic heart disease)",
@@ -813,7 +813,7 @@ export const problems: Problem[] = [
         id: 59,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "27세 여자가 정상적으로 만삭아를 분만하였다. 태아는 출생 직후부터 청색증이 나타나고 호흡곤란, 빈맥 및 수유곤란을 보이다 사망하였다. 가장 가능성이 높은 진단은?",
+        question: "27세 여자가 정상적으로 만삭아를 분만하였다. 태아는 출생 직후부터 청색증이 나타나고 호흡곤란, 빈맥 및 수유곤란을 보이다 사망하였다. 부검으로 확인된 환아 심장의 육안소견이다. 가장 가능성이 높은 진단은?",
         options: [
             "심실중격결손(Ventricular septal defect)",
             "동맥관열림증(Patent ductus arteriosus)",
@@ -828,7 +828,7 @@ export const problems: Problem[] = [
         id: 60,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "12세 남아가 축구경기 중 의식을 잃고 쓰러져 사망했다. 부검으로 확인된 환아 심장의 육안소견이다. 가장 가능성이 높은 진단은?",
+        question: "12세 남아가 축구경기 중 의식을 잃고 쓰러져 응급실로 후송되었다. 여러 차례 심폐소생술을 실시하였으나 사망했다. 부검으로 확인된 환아 심장의 육안소견이다. 가장 가능성이 높은 진단은?",
         options: [
             "심실중격결손(Ventricular septal defect)",
             "동맥관열림증(Patent ductus arteriosus)",
@@ -843,7 +843,7 @@ export const problems: Problem[] = [
         id: 61,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "5세 남아가 운동 후에 심한 호흡곤란을 보인다며 내원하였다. 청진 시 범수축기 심잡음이 크게 들렸고, 양쪽 폐에서 수포음(crackles)이 들렸다. 가슴 X-ray에서 폐 울혈 및 흉막 삼출소견이 관찰되었다. 다음 중 환아에게 발생했을 가능성이 가장 높은 것은?",
+        question: "5세 남아가 술래잡기 놀이나 운동 후에 심한 호흡곤란을 보인다며 내원하였다. 신체검사 상 체온 36.9℃, 맥박 81/min, 호흡 19/min, 혈압 95/60 mmHg이었다. 청진 시 범수축기 심잡음이 크게 들렸고, 양쪽 폐에서 수포음(crackles)이 들렸다. 가슴 X-ray에서 왼쪽 심장 경계면이 두드러져 있고 양쪽 폐 울혈 및 흉막 삼출소견이 관찰되었다. 환아는 치료 중 사망하였고, 부검으로 확인된 환아 심장의 육안소견이다. 다음 중 환아에게 발생했을 가능성이 가장 높은 것은?",
         options: [
             "대동맥 역류(Aortic regurgitation)",
             "관상동맥 경화증(Coronary atherosclerosis)",
@@ -872,7 +872,7 @@ export const problems: Problem[] = [
         id: 63,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "25세 남자가 자택에서 숨진 채 발견되었다. 부검 시 손톱 아래에 파편 출혈(splinter hemorrhages)이 관찰되었고, 심장 내막에 병변들이 보였다. 가장 가능성이 높은 질환은?",
+        question: "25세 남자가 자택에서 숨진 채 발견되었다. 타살의 흔적이나 외상의 징후는 없었으나 집안 구석에서 주사기를 발견하였다. 부검 시 손톱 아래에 파편 출혈(splinter hemorrhages)이 관찰되었고, 심장 내막에 병변들이 보였다. 가장 가능성이 높은 질환은?",
         options: [
             "심근염(Myocarditis)",
             "류마티스심장병(rheumatic heart disease)",
@@ -887,7 +887,7 @@ export const problems: Problem[] = [
         id: 64,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "승모판막소엽이 수축기 동안 좌심방 쪽으로 부풀어 탈출하여 승모판 역류의 가장 흔한 원인이 되는 질환은?",
+        question: "판막조직의 점액변성 또는 유두근의 이상으로 인해 승모판막소엽이 펄럭거리며 늘어나 수축기동안에 좌심방쪽으로 부풀어 탈출하여 가장 흔한 승모판역류의 원인이 되는 질환은?",
         options: [
             "승모판탈출증(mitral valve prolapse)",
             "감염심내막염(infective endocarditis)",
