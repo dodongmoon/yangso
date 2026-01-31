@@ -1,0 +1,132 @@
+import React, { useState, useMemo } from 'react';
+import type { Problem, ProblemType } from '../data/problems';
+
+interface HomeProps {
+    problems: Problem[];
+    onStart: (config: { subject: string; type: ProblemType | 'ALL'; order: 'SEQUENTIAL' | 'RANDOM' }) => void;
+}
+
+export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
+    const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
+    const [selectedType, setSelectedType] = useState<ProblemType | 'ALL' | null>(null);
+    const [selectedOrder, setSelectedOrder] = useState<'SEQUENTIAL' | 'RANDOM' | null>(null);
+
+    const subjects = useMemo(() => Array.from(new Set(problems.map((p) => p.subject))), [problems]);
+
+    const counts = useMemo(() => {
+        if (!selectedSubject) return { subjective: 0, objective: 0, total: 0 };
+        const filtered = problems.filter((p) => p.subject === selectedSubject);
+        return {
+            subjective: filtered.filter((p) => p.type === 'SUBJECTIVE').length,
+            objective: filtered.filter((p) => p.type === 'OBJECTIVE').length,
+            total: filtered.length,
+        };
+    }, [selectedSubject, problems]);
+
+    const handleStart = () => {
+        if (selectedSubject && selectedType && selectedOrder) {
+            onStart({ subject: selectedSubject, type: selectedType, order: selectedOrder });
+        }
+    };
+
+    return (
+        <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 flex items-center justify-center p-4">
+            <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-8 max-w-md w-full shadow-2xl space-y-8 animate-fade-in-up">
+                <div className="text-center space-y-2">
+                    <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-400">
+                        양소연의 문제은행
+                    </h1>
+                    <p className="text-indigo-200">기초 의학 마스터하기</p>
+                </div>
+
+                {/* 1. Subject Selection */}
+                <div className="space-y-4">
+                    <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">1. 과목 선택</label>
+                    <div className="grid grid-cols-2 gap-3">
+                        {subjects.map((subj) => (
+                            <button
+                                key={subj}
+                                onClick={() => setSelectedSubject(subj)}
+                                className={`p-3 rounded-xl text-sm font-medium transition-all duration-300 ${selectedSubject === subj
+                                    ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/30 scale-105'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                {subj}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
+                {/* 2. Type Selection (Only shows after subject is selected) */}
+                {selectedSubject && (
+                    <div className="space-y-4 animate-fade-in">
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">2. 유형 선택</label>
+                        <div className="grid grid-cols-1 gap-2">
+                            <button
+                                onClick={() => setSelectedType('OBJECTIVE')}
+                                disabled={counts.objective === 0}
+                                className={`p-4 rounded-xl flex justify-between items-center transition-all duration-300 ${selectedType === 'OBJECTIVE'
+                                    ? 'bg-purple-500 text-white shadow-lg shadow-purple-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed'
+                                    }`}
+                            >
+                                <span>객관식</span>
+                                <span className="bg-white/20 px-2 py-1 rounded text-xs">{counts.objective} 문제</span>
+                            </button>
+
+                            <button
+                                onClick={() => setSelectedType('SUBJECTIVE')}
+                                disabled={counts.subjective === 0}
+                                className={`p-4 rounded-xl flex justify-between items-center transition-all duration-300 ${selectedType === 'SUBJECTIVE'
+                                    ? 'bg-pink-500 text-white shadow-lg shadow-pink-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed'
+                                    }`}
+                            >
+                                <span>주관식</span>
+                                <span className="bg-white/20 px-2 py-1 rounded text-xs">{counts.subjective} 문제</span>
+                            </button>
+
+                            {/* 'ALL' option removed as requested */}
+                        </div>
+                    </div>
+                )}
+
+                {/* 3. Order Selection */}
+                {selectedType && (
+                    <div className="space-y-4 animate-fade-in">
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">3. 순서 선택</label>
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => setSelectedOrder('SEQUENTIAL')}
+                                className={`flex-1 p-3 rounded-xl transition-all duration-300 ${selectedOrder === 'SEQUENTIAL'
+                                    ? 'bg-teal-500 text-white shadow-lg shadow-teal-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                문항순
+                            </button>
+                            <button
+                                onClick={() => setSelectedOrder('RANDOM')}
+                                className={`flex-1 p-3 rounded-xl transition-all duration-300 ${selectedOrder === 'RANDOM'
+                                    ? 'bg-orange-500 text-white shadow-lg shadow-orange-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                랜덤
+                            </button>
+                        </div>
+                    </div>
+                )}
+
+                <button
+                    onClick={handleStart}
+                    disabled={!selectedSubject || !selectedType || !selectedOrder}
+                    className="w-full py-4 text-lg font-bold rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-xl shadow-blue-500/20 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-[1.02] active:scale-[0.98] transition-all"
+                >
+                    문제 풀기 시작
+                </button>
+            </div>
+        </div>
+    );
+};
