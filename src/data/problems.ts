@@ -23,7 +23,7 @@ export const problems: Problem[] = [
             "큰포식세포(Macrophage)",
             "혈관주위세포(Pericyte)"
         ],
-        answer: "2", // Dummy answer: Smooth muscle cell (index 2) usually migrates
+        answer: "3", // Dummy answer: Smooth muscle cell (index 2) usually migrates
     },
     {
         id: 2,
@@ -37,7 +37,7 @@ export const problems: Problem[] = [
             "Aortic dissection", // This is usually a complication, not a cause?
             "Adrenocortical hyperfunction (Cushing syndrome)"
         ],
-        answer: "3", // Dummy answer
+        answer: "4", // Dummy answer
     },
     {
         id: 3,
@@ -65,7 +65,7 @@ export const problems: Problem[] = [
             "Anti-GBM Ab syndrome",
             "Microscopic polyangitis"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 5,
@@ -79,7 +79,7 @@ export const problems: Problem[] = [
             "화생 (metaplasia)",
             "역류 (regurgitation)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 6,
@@ -93,7 +93,7 @@ export const problems: Problem[] = [
             "미세혈관손상",
             "심근이 섬유조직으로 대치"
         ],
-        answer: "0"
+        answer: "1"
     },
     {
         id: 7,
@@ -107,7 +107,7 @@ export const problems: Problem[] = [
             "Leukocyte aggregates",
             "Platelet and complement activation"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 8,
@@ -121,7 +121,7 @@ export const problems: Problem[] = [
             "CK-MB",
             "Amyloid A"
         ],
-        answer: "0,3"
+        answer: "1,4"
     },
     {
         id: 9,
@@ -135,7 +135,7 @@ export const problems: Problem[] = [
             "비대심근병증(hypertrophic cardiomyopathy)",
             "대동맥류(aortic aneurysm)"
         ],
-        answer: "0"
+        answer: "1"
     },
     {
         id: 10,
@@ -149,7 +149,7 @@ export const problems: Problem[] = [
             "폐동맥판 협착(pulmonic valve stenosis)",
             "전신 고혈압(systemic hypertension)"
         ],
-        answer: "4"
+        answer: "5"
     },
     {
         id: 11,
@@ -163,7 +163,7 @@ export const problems: Problem[] = [
             "폐고혈압(Pulmonary hypertension)",
             "제한심근병증(Restrictive cardiomyopathy)"
         ],
-        answer: "3",
+        answer: "4",
         image: "question_1.jpg" // Placeholder for 1번사진
     },
     {
@@ -178,7 +178,7 @@ export const problems: Problem[] = [
             "완전대동맥전위(Transposition of the great vessels)",
             "대동맥축착(Coarctation of the aorta)"
         ],
-        answer: "4"
+        answer: "5"
     },
     {
         id: 13,
@@ -192,7 +192,7 @@ export const problems: Problem[] = [
             "완전대동맥전위(Transposition of the great vessels)",
             "대동맥축착(Coarctation of the aorta)"
         ],
-        answer: "3",
+        answer: "4",
         image: "question_2.jpg" // Placeholder for 1번사진
     },
     {
@@ -207,7 +207,7 @@ export const problems: Problem[] = [
             "완전대동맥전위(Transposition of the great vessels)",
             "대동맥축착(Coarctation of the aorta)"
         ],
-        answer: "4",
+        answer: "5",
         image: "question_3.jpg" // Placeholder for 1번사진
     },
     {
@@ -222,7 +222,7 @@ export const problems: Problem[] = [
             "제한심근병증(restrictive cardiomyopathy)",
             "류마티스 심장병(rheumatic heart disease)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 16,
@@ -236,7 +236,7 @@ export const problems: Problem[] = [
             "비대심근병증(hypertrophic cardiomyopathy)",
             "좌심실류(Left ventricular aneurysm)"
         ],
-        answer: "0",
+        answer: "1",
         image: "question_4.jpg" // Placeholder for 1번사진
     },
     {
@@ -251,7 +251,7 @@ export const problems: Problem[] = [
             "승모판탈출증(mitral valve prolapse)",
             "승모판협착증(mitral stenosis)"
         ],
-        answer: "4",
+        answer: "5",
         image: "question_5.jpg" // Placeholder for 1번사진
     },
     {
@@ -266,7 +266,7 @@ export const problems: Problem[] = [
             "선천적 기관협착증(tracheal stenosis)",
             "기관지폐쇄증(bronchial atresia)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 19,
@@ -280,7 +280,7 @@ export const problems: Problem[] = [
             "외부 이물질 흡입(aspiration of foreign body)",
             "수술 후 상태(postoperative state)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 20,
@@ -294,7 +294,7 @@ export const problems: Problem[] = [
             "원위꽈리형(paraseptal, distal acinar) 폐기종은 기흉(pneumothorax)을 발생시킬 수 있다.",
             "중심꽈리형(centriacinar) 폐기종은 주로 폐의 하엽(lower lobe)에서 발생한다."
         ],
-        answer: "4"
+        answer: "5"
     },
     {
         id: 21,
@@ -308,7 +308,7 @@ export const problems: Problem[] = [
             "비특이성 간질성 폐렴",
             "특발성 폐섬유화증"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 22,
@@ -322,7 +322,7 @@ export const problems: Problem[] = [
             "기관지 확장증(bronchiectasis)은 기관지벽이 파괴되어 탄력성이 떨어지고 기관지가 확장된 소견을 보이지만, 치료를 받으면 원래 상태로 쉽게 회복된다.",
             "아토피성 천식은 제4형 과민반응(type IV hypersensitivity reaction)으로 발생한다."
         ],
-        answer: "0"
+        answer: "1"
     },
     {
         id: 23,
@@ -350,7 +350,7 @@ export const problems: Problem[] = [
             "다리의 심부정맥혈전(DVT)",
             "약물복용"
         ],
-        answer: "3"
+        answer: "4"
     },
     {
         id: 25,
@@ -364,7 +364,7 @@ export const problems: Problem[] = [
             "사람폐포자충 폐렴(pneumocystis pneumonia)은 면역이 저하된 사람보다 건강한 사람에서 잘 걸리며, 기회감염으로 걸리게 된다.",
             "결핵균은 항산성 염색(AFB stain)에 잘 염색되지 않는다."
         ],
-        answer: "2"
+        answer: "3"
     },
     {
         id: 26,
@@ -378,7 +378,7 @@ export const problems: Problem[] = [
             "육아종성 염증(granulomatous inflammation)",
             "샤우만소체(Schaumann bodies)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 27,
@@ -392,7 +392,7 @@ export const problems: Problem[] = [
             "샘암(adenocarcinoma)",
             "과오종(hamartoma)"
         ],
-        answer: "0",
+        answer: "1",
         image: "question_6.jpg" // Placeholder for 1번사진
     },
     {
@@ -407,7 +407,7 @@ export const problems: Problem[] = [
             "EGFR",
             "BRAF"
         ],
-        answer: "4",
+        answer: "5",
         image: "question_7.jpg" // Placeholder for 1번사진
     },
     {
@@ -422,7 +422,7 @@ export const problems: Problem[] = [
             "샘암(adenocarcinoma)",
             "과오종(hamartoma)"
         ],
-        answer: "2",
+        answer: "3",
         image: "question_8.jpg" // Placeholder for 1번사진
     },
     {
@@ -437,7 +437,7 @@ export const problems: Problem[] = [
             "선천적 기관협착증(tracheal stenosis)",
             "기관지폐쇄증(bronchial atresia)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 31,
@@ -451,7 +451,7 @@ export const problems: Problem[] = [
             "외엽형 폐분리증(extralobar pulmonary sequestration)은 컴퓨터 단층촬영에서 고형성 종괴의 형태로 발견되며, 기관계(airway system)와 연결되어 있다.",
             "기관과 식도가 비정상적으로 연결되는 기관식도루(tracheoesophageal fistula)가 생길 수 있다."
         ],
-        answer: "3"
+        answer: "4"
     },
     {
         id: 32,
@@ -465,7 +465,7 @@ export const problems: Problem[] = [
             "외부 이물질 흡입(aspiration of foreign body)",
             "수술 후 상태(postoperative state)"
         ],
-        answer: "2"
+        answer: "3"
     },
     {
         id: 33,
@@ -479,7 +479,7 @@ export const problems: Problem[] = [
             "원위꽈리형(paraseptal, distal acinar) 폐기종은 기흉(pneumothorax)을 발생시킬 수 있다.",
             "중심꽈리형(centriacinar) 폐기종은 주로 폐의 하엽(lower lobe)에서 발생한다."
         ],
-        answer: "4"
+        answer: "5"
     },
     {
         id: 34,
@@ -493,7 +493,7 @@ export const problems: Problem[] = [
             "기관지 확장증(bronchiectasis)은 기관지벽이 파괴되어 탄력성이 떨어지고 기관지가 확장된 소견을 보이지만, 치료를 받으면 원래 상태로 쉽게 회복된다.",
             "아토피성 천식은 제4형 과민반응(type IV hypersensitivity reaction)으로 발생한다."
         ],
-        answer: "0"
+        answer: "1"
     },
     {
         id: 35,
@@ -507,7 +507,7 @@ export const problems: Problem[] = [
             "입자 크기가 1~5μm인 미세분진은 진폐증(pneumoconiosis)을 일으킬 수 있다.",
             "특발성 폐섬유화증(idiopathic pulmonary fibrosis)은 주로 양쪽 폐하엽에서 호발한다."
         ],
-        answer: "2"
+        answer: "3"
     },
     {
         id: 36,
@@ -521,7 +521,7 @@ export const problems: Problem[] = [
             "다리의 심부정맥혈전",
             "약물복용"
         ],
-        answer: "3"
+        answer: "4"
     },
     {
         id: 37,
@@ -535,7 +535,7 @@ export const problems: Problem[] = [
             "사람폐포자충 폐렴(pneumocystis pneumonia)은 면역이 저하된 사람보다 건강한 사람에서 잘 걸리며, 기회감염으로 걸리게 된다.",
             "결핵균은 항산성 염색(AFB stain)에 잘 염색되지 않는다."
         ],
-        answer: "2"
+        answer: "3"
     },
     {
         id: 38,
@@ -549,7 +549,7 @@ export const problems: Problem[] = [
             "육아종성 염증 (granulomatous inflammation)",
             "샤우만소체 (Schaumann bodies)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 39,
@@ -563,7 +563,7 @@ export const problems: Problem[] = [
             "샘암 (adenocarcinoma)",
             "과오종 (hamartoma)"
         ],
-        answer: "0",
+        answer: "1",
         image: "question_9.jpg"
     },
     {
@@ -578,7 +578,7 @@ export const problems: Problem[] = [
             "면역조직화학염색을 했을 때 Calretinin, WT-1, D2-40에 주로 양성 소견을 보인다.",
             "전자현미경에서 주로 짧은 미세융모(short microvilli)를 관찰할 수 있다."
         ],
-        answer: "4"
+        answer: "5"
     },
     {
         id: 42,
@@ -592,7 +592,7 @@ export const problems: Problem[] = [
             "증식 소동맥경화증(hyperplastic arteriolosclerosis)",
             "타카야수동맥염(Takayasu arteritis)"
         ],
-        answer: "3"
+        answer: "4"
     },
     {
         id: 43,
@@ -606,7 +606,7 @@ export const problems: Problem[] = [
             "고혈압",
             "당뇨"
         ],
-        answer: "4",
+        answer: "5",
         image: "question_10.jpg"
     },
     {
@@ -621,7 +621,7 @@ export const problems: Problem[] = [
             "Platelets",
             "Endothelial cells"
         ],
-        answer: "4"
+        answer: "5"
     },
     {
         id: 45,
@@ -635,7 +635,7 @@ export const problems: Problem[] = [
             "Erythrocyte sedimentation rate (ESR)",
             "Platelet count"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 46,
@@ -649,7 +649,7 @@ export const problems: Problem[] = [
             "타카야수동맥염(Takayasu arteritis)",
             "결절여러동맥염(polyarteritis nodosa)"
         ],
-        answer: "3"
+        answer: "4"
     },
     {
         id: 47,
@@ -663,7 +663,7 @@ export const problems: Problem[] = [
             "심근경색(Myocardial infarction)",
             "폐고혈압(Pulmonary hypertension)"
         ],
-        answer: "3"
+        answer: "4"
     },
     {
         id: 49,
@@ -677,7 +677,7 @@ export const problems: Problem[] = [
             "카포시육종(Kaposi sarcoma)",
             "혈관육종(angiosarcoma)"
         ],
-        answer: "3",
+        answer: "4",
         image: "question_11.jpg"
     },
     {
@@ -692,7 +692,7 @@ export const problems: Problem[] = [
             "승모판협착(mitral valve stenosis)",
             "심근염(myocarditis)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 51,
@@ -706,7 +706,7 @@ export const problems: Problem[] = [
             "횡문근종(rhabdomyoma)",
             "혈관육종(angiosarcoma)"
         ],
-        answer: "3",
+        answer: "4",
         image: "question_12.jpg"
     },
     {
@@ -721,7 +721,7 @@ export const problems: Problem[] = [
             "심낭압전(Tamponade)",
             "승모판 판막엽의 섬유화와 융합(Fibrosis of mitral valve with fusion of commissures)"
         ],
-        answer: "0"
+        answer: "1"
     },
     {
         id: 53,
@@ -735,7 +735,7 @@ export const problems: Problem[] = [
             "고름심장막염(suppurative pericarditis)",
             "제한 심근병증(restrictive cardiomyopathy)"
         ],
-        answer: "1",
+        answer: "2",
         image: "question_13.jpg"
     },
     {
@@ -750,7 +750,7 @@ export const problems: Problem[] = [
             "right coronary artery",
             "left circumflex"
         ],
-        answer: "3"
+        answer: "4"
     },
     {
         id: 55,
@@ -764,7 +764,7 @@ export const problems: Problem[] = [
             "비대심근병증(hypertrophic cardiomyopathy)",
             "좌심실류(Left ventricular aneurysm)"
         ],
-        answer: "0",
+        answer: "1",
         image: "question_14.jpg"
     },
     {
@@ -779,7 +779,7 @@ export const problems: Problem[] = [
             "Calcium",
             "Potassium"
         ],
-        answer: "0"
+        answer: "1"
     },
     {
         id: 57,
@@ -793,7 +793,7 @@ export const problems: Problem[] = [
             "고혈압",
             "흡연"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 58,
@@ -807,7 +807,7 @@ export const problems: Problem[] = [
             "심근경색증 (myocardial infarction)",
             "만성허혈심장병 (chronic ischemic heart disease)"
         ],
-        answer: "1"
+        answer: "2"
     },
     {
         id: 59,
@@ -821,7 +821,7 @@ export const problems: Problem[] = [
             "완전대동맥전위(Transposition of the great vessels)",
             "대동맥축착(Coarctation of the aorta)"
         ],
-        answer: "3",
+        answer: "4",
         image: "question_15.jpg"
     },
     {
@@ -836,7 +836,7 @@ export const problems: Problem[] = [
             "완전대동맥전위(Transposition of the great vessels)",
             "대동맥축착(Coarctation of the aorta)"
         ],
-        answer: "4",
+        answer: "5",
         image: "question_16.jpg"
     },
     {
@@ -851,7 +851,7 @@ export const problems: Problem[] = [
             "폐고혈압(Pulmonary hypertension)",
             "제한심근병증(Restrictive cardiomyopathy)"
         ],
-        answer: "3",
+        answer: "4",
         image: "question_17.jpg"
     },
     {
@@ -866,7 +866,7 @@ export const problems: Problem[] = [
             "비대심근병증(hypertrophic cardiomyopathy)",
             "대동맥류(aortic aneurysm)"
         ],
-        answer: "0"
+        answer: "1"
     },
     {
         id: 63,
@@ -880,7 +880,7 @@ export const problems: Problem[] = [
             "섬유성 심낭염(Fibrinous pericarditis)",
             "카르시노이드심장병(carcinoid heart disease)"
         ],
-        answer: "2",
+        answer: "3",
         image: "question_18.jpg"
     },
     {
@@ -895,6 +895,6 @@ export const problems: Problem[] = [
             "리브만-삭스 심내막염(Libman-Sacks endocarditis)",
             "카르시노이드심장병(carcinoid heart disease)"
         ],
-        answer: "0"
+        answer: "1"
     }
 ];
