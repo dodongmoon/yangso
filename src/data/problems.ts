@@ -641,7 +641,7 @@ export const problems: Problem[] = [
         id: 46,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "30세 여자가 5개월 전부터 오른쪽 눈의 시력이 떨어지고 양쪽 팔이 차갑고 감각이 둔해진다며 내원하였다. 의학적 검사소견은 다음과 같다. 체온 36.7°C, 혈압 100/70mmHg, 요골동맥의 맥박(radial pulses)은 촉진되지 않았으나 대퇴동맥의 맥박(femoral pulses)은 강하게 느껴졌다. 양팔의 감각은 떨어지고 청색증이 관찰되었지만 붓거나 열감은 없었다. 혈액검사에서 당 74mg/dL, creatinine 1mg/dL 총 cholesterol 165mg/dL, ANA(anti-nuclear antibody) test는 음성이었다. 가장 의심되는 질환은?",
+        question: "30세 여자가 5개월 전부터 오른쪽 눈의 시력이 떨어지고 양쪽 팔이 차갑고 감각이 둔해진다며 내원하였다. 이학적 검사소견은 다음과 같다. 체온 36.7°C, 혈압 100/70mmHg, 요골동맥의 맥박(radial pulses)은 촉진되지 않았으나 대퇴동맥의 맥박(femoral pulses)은 강하게 느껴졌다. 양팔의 감각은 떨어지고 청색증이 관찰되었지만 붓거나 열감은 없었다. 혈액검사에서 당 74mg/dL, creatinine 1mg/dL 총 cholesterol 165mg/dL, ANA(anti-nuclear antibody) test는 음성이었다. 가장 의심되는 질환은?",
         options: [
             "복부 대동맥류(abdominal aneurysm)",
             "대동맥박리(aortic dissection)",
