@@ -598,7 +598,7 @@ export const problems: Problem[] = [
         id: 43,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "당뇨병 병력이 있는 40세 남자가 지난 주 동안 복통이 악화되어 내원하였다. 신체검사 상 체온 36.9°C, 맥박 77/분, 호흡 16/분, 혈압 135/85 mmHg였다. 혈액 검사 상 hemoglobin A1c는 10.5%였다. 다음 중 이 환자에서 질환을 초래했을 가능성이 가장 높은 원인?",
+        question: "당뇨병 병력이 있는 40세 남자가 지난 주 동안 복통이 악화되어 내원하였다. 신체검사 상 체온 36.9°C, 맥박 77/분, 호흡 16/분, 혈압 135/85 mmHg였다. 복부 CT 소견은 아래 사진과 같다. 혈액 검사 상 hemoglobin A1c는 10.5%였다. 다음 중 이 환자에서 질환을 초래했을 가능성이 가장 높은 원인?",
         options: [
             "고지질혈증",
             "비만",
@@ -669,7 +669,7 @@ export const problems: Problem[] = [
         id: 49,
         subject: "기초순환호흡기학",
         type: "OBJECTIVE",
-        question: "40세 남자가 다수의 피부결절이 생겨서 내원하였다. 환자는 8년 전부터 신장이식으로 면역억제제 치료를 받고 있었고, HHV-8 (human herpesvirus-8)에 양성을 보였다. 가장 가능성이 높은 진단?",
+        question: "40세 남자가 다수의 피부결절이 생겨서 내원하였다. 환자는 8년 전부터 신장이식으로 면역억제제 치료를 받고 있었고, HHV-8 (human herpesvirus-8)에 양성을 보였다. 환자의 피부병변 사진과 일부 병변을 절제하여 제작한 현미경 소견은 아래 사진과 같다. 가장 가능성이 높은 진단?",
         options: [
             "모세혈관종(capillary hemangioma)",
             "고름육아종(pyogenic granuloma)",
