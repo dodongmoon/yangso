@@ -401,11 +401,11 @@ export const problems: Problem[] = [
         type: "OBJECTIVE",
         question: "53세 여자가 건강검진 흉부 X선 검사에서 우측 폐에 비정상적인 음영 증가를 주소로 내원하였다. 비흡연자였으며, 컴퓨터 단층촬영에서 우상엽 변연부에 2.1cm 크기의 종괴가 관찰되었다. 우상엽 절제술을 시행하였으며, 면역조직화학염색 결과 TTF-1에 양성이었다. 유전자 검사에서 돌연변이가 발견될 확률이 가장 높은 유전자는?",
         options: [
+            "BRAF",
             "KRAS",
             "ALK",
             "ErbB-2",
-            "EGFR",
-            "BRAF"
+            "EGFR"
         ],
         answer: "5",
         image: "question_7.jpg" // Placeholder for 1번사진
