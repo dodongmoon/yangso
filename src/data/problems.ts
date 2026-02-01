@@ -1495,4 +1495,47 @@ export const problems: Problem[] = [
         ],
         answer: "5",
     }
+    ,
+    {
+        id: 1,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "평소 건강하던 48세 남자가 서서히 커지고 있는 무통성 경부종괴를 주소로 내원하였다. 진찰상 얼굴의 양측 귀 앞쪽에 부종을 동반한 피하 및 심부의 다발성 결절성 종괴들이 촉진되었고, 이들에 의하여 환자의 얼굴은 비대칭적으로 보였다. 그러나 진찰상 신경학적 특이소견은 없었다. 종괴의 병리진단을 위하여 침생검(Needle biopsy)을 시행하였다. 현미경소견상 소림프구(small lymphocyte)들이 결절성으로 침윤하면서 림프구성 여포 (lymphoid follicle)을 형성하고 있고, 이들 여포들 사이에는 세정맥(venule)의 증식과 매우 많은 수의 호산구(eosinophil) 침윤이 관찰되었다. 임상 및 병리소견종합해서 가장 먼저 고려하여 할 질환은?",
+        options: [
+            "Castleman disease ――― Interfollicular plasmacytosis",
+            "Angiofollicular hyperplasia ――― Tissue eosinophilia",
+            "Infectious mononucleosis ――― Immunoblastic proliferation",
+            "Kimura disease ――― Angiofollicular hyperplasia with eosinophilia",
+            "Kikuchi disease ――― Immunoblastic proliferation"
+        ],
+        answer: "4"
+    },
+    {
+        id: 2,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "전신쇠약과 B-symptom을 주소로 내원한 50세 남자에게서 단순흉부 X-ray상 종격동 종괴가 발견되었다. 추가적인 방사선과적 검사를 거친 후 종격동 종괴 절제수술을 받았다. 수술로 절제된 종괴의 육안소견(B)과 현미경소견(C)은 다음과 같다. 이 환자에서 가장 가능성 있는 병리진단과 특징적인 병태생리는 무엇인가?",
+        options: [
+            "Castleman disease ――― Overproduction of interleukin 6",
+            "IgG4-related disease ――― Overproduction of IgG4",
+            "Infectious mononucleosis ――― Acute primary EBV virus infection",
+            "Kimura disease ――― Angiofollicular hyperplasia with eosinophilia",
+            "Kikuchi disease ――― Immunoblastic proliferation"
+        ],
+        answer: "1"
+    },
+    {
+        id: 3,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "19세 남자가 10일 동안 발열과 오한이 지속되어 개인의원에서 항생체 치료를 받았으나 호전이 없었고, 3일전부터는 인후통과 두통이 생기고 피로감이 심해지면서 발열이 지속되어 본원 이비인후과에 내원하였다. 진찰상 환자는 양측 경부 림프절 비대를 보였고, 림프절 촉진 시 아파하였다. 다음 중 환자의 병력상 가장 먼저 생각해 볼 수 있는 진단과 그 진단을 위해 고려해 볼 수 있는 검사법을 고르시오.",
+        options: [
+            "Kawasaki disease ――― Monospot test",
+            "Angiofollicular hyperplasia ――― Serum IL-6",
+            "Infectious mononucleosis ――― Monospot test",
+            "Angiofollicular hyperplasia with eosinophilia ――― Monospot test",
+            "Kikuchi disease ――― Serum IL-6"
+        ],
+        answer: "3"
+    }
 ];
