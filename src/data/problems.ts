@@ -280,7 +280,7 @@ export const problems: Problem[] = [
             "외부 이물질 흡입(aspiration of foreign body)",
             "수술 후 상태(postoperative state)"
         ],
-        answer: "2"
+        answer: "3"
     },
     {
         id: 20,
