@@ -1894,5 +1894,663 @@ export const problems: Problem[] = [
             "(5) TP53"
         ],
         answer: "2,3",
+    },
+    {
+        id: 1,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 사구체 질환의 병리를 관찰하는 방법이다. Thin glomerular basement membrane disease의 확진에 필요한 방법은?",
+        options: [
+            "light microscopy",
+            "electron microscopy",
+            "immunofluorescent microscopy",
+            "phase contrast microscopy",
+            "immunohistochemistry"
+        ],
+        answer: "2",
+    },
+    {
+        id: 2,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "아래 사진의 사구체 신염에 관한 기술이다. 맞는 것은?",
+        options: [
+            "급성 신부전증을 특징으로 한다.",
+            "mesangial deposit을 특징으로 한다.",
+            "crescents 형성을 잘 하기도 한다.",
+            "anti-PLA2R이 원인일 수 있다.",
+            "소아에서 발생하는 사구체신염 중 발생빈도 1위이다."
+        ],
+        answer: "4",
+        image: "question_36.jpg"
+    },
+    {
+        id: 3,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "아래 사진의 신염은 현미경 소견을 특징으로 4가지 아형으로 분류한다. 가장 예후가 나쁜 것은?",
+        options: [
+            "perihilar type",
+            "proliferative type",
+            "collapsing type",
+            "tip lesion",
+            "mixed type"
+        ],
+        answer: "3",
+        image: "question_37.jpg"
+    },
+    {
+        id: 4,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "아래 사진의 신장질환 진단의 원인을 알기 위해 필요한 검사는?",
+        options: [
+            "complement level",
+            "immunoelectrophoresis",
+            "ANCA",
+            "HbA1c level",
+            "24hr total proteinuria"
+        ],
+        answer: "4",
+        image: "question_38.jpg"
+    },
+    {
+        id: 5,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "신장조직 검사 후 병리결과 보고서에 IgA nephropathy with M0 E0 S1 T2 으로 결과를 받았다. 의미하는 병리소견은?",
+        options: [
+            "mesangial cell proliferation",
+            "endocapillary proliferation",
+            "crescent formation",
+            "severe interstitial fibrosis",
+            "paramesangial deposits"
+        ],
+        answer: "4",
+    },
+    {
+        id: 6,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "최근 분류된 C3 GN의 광학현미경 소견에 가장 가까운 형태는?",
+        options: [
+            "membranous glomerulonephropathy",
+            "membranoproliferative glomerulonephritis",
+            "focal segmental glomerulosclerosis",
+            "crescentic glomerulonephritis",
+            "IgA nephropathy-like"
+        ],
+        answer: "2",
+    },
+    {
+        id: 7,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "사구체 병변을 묘사하는 단어 중 segmental 의 뜻은?",
+        options: [
+            "관찰된 사구체 모두에서 같은 병변을 보일 때",
+            "관찰된 사구체의 50% 미만에서 병변이 보일 때",
+            "한 개의 사구체의 일부에서 병변이 보일 때",
+            "한 개의 사구체의 전부에서 병변이 보일 때",
+            "경화증이 있을 때 붙이는 병리용어"
+        ],
+        answer: "3",
+    },
+    {
+        id: 8,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "광학현미경 검사에서 정상처럼 보이는 사구체를 가진 사구체 질환을 감별하는 방법이다. 바른 접근법은?",
+        options: [
+            "Minimal change disease는 EM으로",
+            "thin GBM disease는 IF 양성 반응으로",
+            "IgA 신증은 신증후군 유무에 따라",
+            "HSP nephritis는 crescent 유무에 따라",
+            "Alport syndrome은 광학현미경 소견으로"
+        ],
+        answer: "1",
+    },
+    {
+        id: 9,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 tubulointerstitial nephritis의 병리에 대한 설명이다. 맞는 것은?",
+        options: [
+            "독극물 등에 의한 신장 손상은 주로 수질 쪽에서 일어난다.",
+            "심한 혈압강하에 의한 신손상 부위는 주로 사구체이다.",
+            "interstitial nephritis는 약제가 원인일 경우가 많다.",
+            "pyelonephritis의 원인으로는 많은 경우 항생제 과잉 복용이다.",
+            "항상 eosinophils 침윤되는 것이 특징이다."
+        ],
+        answer: "3",
+    },
+    {
+        id: 10,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 pyelonephritis의 원인에 대한 설명이다. 가장 흔한 원인은?",
+        options: [
+            "지속적인 독극물의 섭취",
+            "혈행으로 침범된 세균에 의한 감염",
+            "항생제 등 약제",
+            "요로감염이 역류되어 신장에 침범",
+            "급성 진행성 사구체 질환의 결과"
+        ],
+        answer: "4",
+    },
+    {
+        id: 11,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 막성사구체신염의 특수 염색 그림이다. 화살표가 가리키는 부위는 어떤 곳인지?",
+        options: [
+            "immune complex",
+            "glomerular basement membrane",
+            "podocyte foot processes",
+            "mesangial matrix",
+            "capillary fenestration"
+        ],
+        answer: "2",
+    },
+    {
+        id: 12,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 사구체 신염의 전자현미경 소견이다. 이런 소견을 가장 특징으로 나타나는 사구체 신염은?",
+        options: [
+            "IgA nephropathy",
+            "post infectious glomerulonephritis",
+            "Alport syndrome",
+            "crescentic glomerulonephritis",
+            "membranoproliferative glomerulonephritis"
+        ],
+        answer: "2",
+        image: "question_39.jpg"
+    },
+    {
+        id: 13,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음의 질환 중 그 조직학적 소견이 편평상피세포암종과 가장 유사한 것은?",
+        options: [
+            "Complete hydatidiform mole",
+            "Partial hydatidiform mole",
+            "Invasive hydatidiform mole",
+            "Epithelioid trophoblastic tumor",
+            "Gestational choriocarcinoma"
+        ],
+        answer: "4",
+    },
+    {
+        id: 14,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "산부인과를 방문한 임신 20주된 44세 여자가 자궁의 초음파 검사를 받은 후 자궁내막 소파수술을 받고 완전포상기태로 진단받았다. 다음 중 이 환자의 자궁내막에서 채취된 조직검체의 병리학적 소견과 가장 거리가 먼 것을 고르시오.",
+        options: [
+            "Hydropic chorionic villi",
+            "Insufficient vascular development in the chorionic villi",
+            "Diffuse proliferation of villous trophoblasts in the chorionic villi",
+            "Absence of fetal or embryo tissue",
+            "Presence of fetal tissue or embryo tissue"
+        ],
+        answer: "5",
+    },
+    {
+        id: 15,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "자궁경부의 High grade squamous intraepithelial neoplasia (HSIL)의 조직학적 소견과 관계없는 것을 고르시오.",
+        options: [
+            "Dysplasia of the epithelial cells",
+            "Invasion in the subepithelial stroma",
+            "No maturation of epithelial cells",
+            "Mitosis away from basal/parabasal layer",
+            "Loss of polarity of the epithelial cells"
+        ],
+        answer: "2",
+    },
+    {
+        id: 16,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "복수(ascites)와 장폐색(obstructive ileus)을 주소로 내원한 55세 여자 환자가 개복 수술을 받으면서 pseudomyxoma peritonei로 진단받았다. 이 환자의 상태에 대한 설명이다. 가장 거리가 먼 것은?",
+        options: [
+            "대부분 위장관 기원의 점액성 종양에서 기원한다.",
+            "종양세포는 주로 고등급 선암종세포이다.",
+            "충수돌기가 가장 흔한 원발장기이다.",
+            "복강이 젤라틴 같은 점액성 복수로 차있다.",
+            "난소에 전이성 점액성종양으로 나타난다."
+        ],
+        answer: "2",
+    },
+    {
+        id: 17,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "52세 여자가 질출혈을 주소로 내원하여 수술을 받았다. 환자의 혈청 beta hCG가 12,099 mIU/mL로 매우 상승되어 있었다. 다음 중 본 증례의 진단으로 가장 가능성은 큰 것은?",
+        options: [
+            "Mixed mullerian tumor",
+            "Endocervical carcinoma",
+            "Endometrial carcinoma",
+            "Gestational trophoblastic disease",
+            "Low grade endometrial stromal sarcoma"
+        ],
+        answer: "4",
+        image: "question_40.jpg"
+    },
+    {
+        id: 18,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "50세 여자가 비정상 자궁출혈을 주소로 내원하였다. 골반강에 장경 7cm의 고형성 종괴가 관찰되었고 자궁내막은 전반적으로 심하게 두터워져 있었다. 환자는 자궁소파술 후 자궁전적출술과 양측부속기적출술을 시행받았다. 면역조직화학염색상 종양세포는 Estrogen receptor에 강한 양성을 보였고, P53단백은 서로 다른 강도의 발현을 보였다. 다음 설명 중 가장 거리가 먼 것은?",
+        options: [
+            "Estrogen을 분비하는 난소의 기능성 종양이 있다.",
+            "수술 전 자궁내막 소파 생검 조직에서 type 1 선암종이었을 것이다.",
+            "수술 전 자궁내막 소파 생검 조직은 낭성 위축을 보였을 것이다.",
+            "난소종양에서 Call-Exner's body가 보인다.",
+            "난소의 종양은 추후 전이의 가능성이 있기 때문에 악성종양으로 분류된다."
+        ],
+        answer: "3",
+        image: "question_41.jpg"
+    },
+    {
+        id: 19,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음 중 본 증례(44세 여자, 자궁 소파술 검체)의 임상적, 병리학적 소견과 가장 거리가 먼 것은?",
+        options: [
+            "융모막세포의 미만성 위축",
+            "광범위한 융모의 낭성변화",
+            "융모막세포의 미만성 증식",
+            "융모내 혈관발달의 부전",
+            "비정상적인 혈청 b-hCG 증가"
+        ],
+        answer: "1",
+        image: "question_42.jpg"
+    },
+    {
+        id: 20,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음 중 본 증례의 병리진단으로 가장 가능성이 큰 진단을 고르시오.",
+        options: [
+            "Placental site trophoblastic tumor",
+            "Invasive hydatidiform mole",
+            "Partial hydatidiform mole",
+            "Hydropic abortion",
+            "Complete hydatidiform mole"
+        ],
+        answer: "5",
+        image: "question_42.jpg"
+    },
+    {
+        id: 21,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "요로상피암종(urothelial carcinoma)의 발생과 관련된 원인인자이다. 아닌 것을 고르시오.",
+        options: [
+            "흡연 (Cigarette smoking)",
+            "2-나프틸아민 (2-naphthylamine)",
+            "방광주혈흡충 (Schistosoma hematobium)",
+            "장기간의 진통제사용 (Long-term use of analgesics)",
+            "사람유두종바이러스 16, 18 (HPV 16, 18)"
+        ],
+        answer: "5",
+    },
+    {
+        id: 22,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "56세 여성이 최근 소변을 자주 보고, 배뇨 시 통증이 동반되어 내원하였다. 소변검사에서 세균이 관찰되었고 중성구가 증가하였다. 원인으로 가장 흔한 것은 무엇인가?",
+        options: [
+            "Neisseria gonorrhoeae",
+            "Streptococcus pyogenes",
+            "E-coli",
+            "Pseudomonas aeruginosa",
+            "Staphylococcus aureus"
+        ],
+        answer: "3",
+    },
+    {
+        id: 23,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "57세 남자가 최근 소변보기가 힘들다며 내원하였다. 전립샘특이항원(prostate specific antigen) 5ng/ml이었고 진단을 위하여 침생검을 시행하였다. 상피세포와 바탕질세포의 증식이 관찰되었고 증식한 샘에서 기저세포층이 유지되었다. 진단은 무엇인가?",
+        options: [
+            "급성전립샘염 (acute prostatitis)",
+            "만성전립샘염 (chronic prostatitis)",
+            "양성결절증식 (Benign prostatic hyperplasia)",
+            "전립샘상피내종양(Prostatic intraepithelial neoplasia)",
+            "전립샘암종(prostatic adenocarcinoma)"
+        ],
+        answer: "3",
+    },
+    {
+        id: 24,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "34세 남성이 5개월 전부터 우측 고환에 둔통과 불쾌감이 있어 내원하였다. 수술소견상 우측 고환의 대부분이 회백색의 고형성 종괴로 대치되어 있고 출혈과 괴사는 관찰되지 않았다. 종양세포는 크고 균일하였으며, 투명한 세포질과 명확한 세포막을 보였다. 종양세포의 군집은 소림프구를 포함하는 결합조직에 둘러싸여 있었다. 이 종양에 대한 설명으로 맞는 것을 고르시오.",
+        options: [
+            "종자세포에서 기원한 종양이다.",
+            "양성종양이다.",
+            "α-FP을 생산한다.",
+            "조직학적으로 90%가 B 세포형이다.",
+            "환자의 20%에서 조기사춘 혹은 여성형유방을 보인다."
+        ],
+        answer: "1",
+    },
+    {
+        id: 25,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "67세 남성에서 양측 고환을 침범하는 종괴가 관찰되었다. 종양은 크고 균일한 세포로 구성되었으며, 종양세포는 CD20양성, c-kit음성이었다. 진단은 무엇인가?",
+        options: [
+            "고환종 (Seminoma)",
+            "악성림프종 (Malignant lymphoma)",
+            "전이암종 (Metastatic carcinoma)",
+            "융모막암종 (Choriocarcinoma)",
+            "미성숙기형종 (Immature teratoma)"
+        ],
+        answer: "2",
+    },
+    {
+        id: 26,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 요로상피암종의 병인에 대한 설명이다. 괄호안에 들어가는 2가지를 고르시오. ( )과 ( ) 유전자의 기능상실은 고등급 유두모양 요도상피암종 특히 고유근 침범과 관련있다.",
+        options: [
+            "BRAF",
+            "VHL",
+            "TP53",
+            "MET",
+            "RB"
+        ],
+        answer: "3,5",
+    },
+    {
+        id: 27,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 토리병(사구체질환)에서 볼 수 있는 패턴 중의 하나이다. 맞는 것을 하나 고르시오.(빨간 부분이 손상된 위치임)",
+        options: [
+            "Focal",
+            "Segmental",
+            "Partial",
+            "Diffuse",
+            "Global"
+        ],
+        answer: "2",
+        image: "question_43.jpg"
+    },
+    {
+        id: 28,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "콩팥염증후군(Nephritic syndrome)에서 특징적으로 볼 수 있는 소견을 둘 고르시오.",
+        options: [
+            "Hematuria",
+            "Severe proteinuria",
+            "Hypoalbuminemia",
+            "Azotemia",
+            "Hyperlipidemia"
+        ],
+        answer: "1,4",
+    },
+    {
+        id: 29,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "전자현미경 사진에서 다음과 같은 소견을 특징으로 하는 사구체질환에 대한 설명 중 맞는 것을 둘 고르시오.",
+        options: [
+            "소아에서 잘 발병한다.",
+            "수일 내 신기능이 급격하게 저하되는 소견으로 나타난다.",
+            "각혈을 동반하는 것이 특징이다.",
+            "Immune complex-mediated disease 라고 볼 수 있다.",
+            "혈중 내 ANCA(Anti-neutrophil cytoplasmic antibodies)가 상승한 소견을 관찰할 수 있다."
+        ],
+        answer: "2,5",
+        image: "question_44.jpg"
+    },
+    {
+        id: 30,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "막토리콩팥염(Membranous glomerulonephritis)에 대한 기술 중 맞는 것을 둘 고르시오.",
+        options: [
+            "성인에서 주로 발병한다.",
+            "Podocytopathy가 주 기전이다.",
+            "스테로이드 치료에 대한 반응이 매우 좋다.",
+            "면역형광현미경 상 Glomerular basement membrane을 따라 linear deposition을 보이는 것이 특징이다.",
+            "전자현미경 상 Subepithelial electron dense deposits을 보이는 것이 특징이다."
+        ],
+        answer: "1,5",
+    },
+    {
+        id: 31,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음 중 보체(complement) 활성의 이상(abnormalities)과 연관된 질환 둘 고르시오.",
+        options: [
+            "막증식토리콩팥염 (Membranoproliferative glomerulonephritis), type I",
+            "고밀도침착병 (Dense deposit disease)",
+            "IgA콩팥병증 (IgA nephropathy)",
+            "용혈요독증후군 (Hemolytic uremic syndrome)",
+            "비정형 용혈요독증후군(Atypical hemolytic uremic syndrome)"
+        ],
+        answer: "2,5",
+    },
+    {
+        id: 32,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "루프스신염(Lupus nephritis)에 관한 기술 중 틀린 것을 둘 고르시오.",
+        options: [
+            "전신성 홍반성 루프스 (Systemic lupus erythematosus)가 신장을 침범하는 경우는 최고 50%까지 흔한 편이다.",
+            "면역형광현미경 상 거의 모든 면역글로불린과 보체의 침착을 관찰할 수 있다.",
+            "Mesangial matrix의 팽창 및 결절성 경화(Nodular sclerosis)가 주 소견이다.",
+            "피부생검을 통해 Leukocytoclastic vasculitis의 소견을 동반한 것을 관찰해야 IgA nephropathy와 감별할 수 있다.",
+            "여러 다양한 패턴 중 가장 흔한 타입은 전체 사구체의 50% 이상을 침범하는 diffuse proliferative lupus nephritis이다."
+        ],
+        answer: "3,4",
+    },
+    {
+        id: 33,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음 소견을 특징으로 하는 가장 확률 높은 진단을 하나 고르시오.",
+        options: [
+            "급성세관괴사 (Acute tubular injury/necrosis)",
+            "급성신우신염 (Acute pyelonephritis)",
+            "만성신우신염 (Chronic pyelonephritis)",
+            "약물유도 급성간질성신염 (Drug-induced acute interstitial nephritis)",
+            "혈전미세혈관병증 (Thrombotic microangiopathy)"
+        ],
+        answer: "1",
+        image: "question_45.jpg"
+    },
+    {
+        id: 34,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "다음은 콩팥에서 발생한 낭성 질환이다. 이에 대한 설명 중 맞는 것을 둘 고르시오.",
+        options: [
+            "상염색체 우성질환 (Autosomal dominant)이다.",
+            "상염색체 열성질환 (Autosomal recessive)이다.",
+            "Fibrocystin의 돌연변이와 연관 있다.",
+            "Polycystin 1의 돌연변이와 연관 있다.",
+            "간에도 다발성의 낭종을 동반한다."
+        ],
+        answer: "2,3",
+        image: "question_46.jpg"
+    },
+    {
+        id: 35,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "신세포암종 (Renal cell carcinoma) 발생에 관여하는 염색체 또는 유전자 이상의 조합 중 맞는 것을 하나 고르시오.",
+        options: [
+            "Clear cell RCC - Trisomy 7",
+            "Clear cell RCC - Activated MET",
+            "Papillary RCC - Deletions on chromosome 3",
+            "Papillary RCC - Loss of VHL",
+            "TFE3-rearranged RCC - Xp11 translocation"
+        ],
+        answer: "5",
+    },
+    {
+        id: 36,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "콩팥 깔때기 (Renal pelvis)에서 발생한 다음과 같은 종양에 대한 설명 중 틀린 것을 둘 고르시오.",
+        options: [
+            "육안적 또는 현미경적 혈뇨를 주 증상으로 한다.",
+            "다발성으로 분포할 가능성이 있기 때문에 방광경 검사를 시행해야 한다.",
+            "예후를 결정짓는 가장 중요한 요소는 침윤 깊이다.",
+            "High grade의 noninvasive papillary urothelial carcinoma의 경우 재발율은 낮지만 침습성암으로 진행할 확률이 높다.",
+            "Muscularis 층까지 침범한 경우 stage는 T1에 해당한다."
+        ],
+        answer: "4,5",
+        image: "question_47.jpg"
+    },
+    {
+        id: 37,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "여성생식기계의 하부에서 시작한 염증이 상행성으로 전파하여 궁극적으로 여성생식기계 전반에 광범위한 화농성 염증을 일으키는 대표적인 원인은 무엇인가?",
+        options: [
+            "Molluscum contagiosum",
+            "Herpes simplex type II",
+            "Trichomonas vaginalis",
+            "Human papilloma virus",
+            "Neisseria gonorheae"
+        ],
+        answer: "5",
+    },
+    {
+        id: 38,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "43세 여성의 회음부에 다수의 사마귀양 병소가 발생하였다. 조직검사상 병변의 표층에 원반세포(koilocyte)가 관찰되었다. 이 병변에 대한 설명으로 맞는 것을 고르시오.",
+        options: [
+            "HPV 16 혹은 18에 의해 발생한다.",
+            "양성종양이다.",
+            "바이러스의 유전체가 숙주의 유전자에 통합된다.",
+            "자궁경부의 원추절제(conization)이 필요하다.",
+            "바이러스에 의한 염증성 병변이다."
+        ],
+        answer: "2",
+    },
+    {
+        id: 39,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "자궁경부의 세포 중 HPV의 감염에 취약한 2개를 고르시오.",
+        options: [
+            "Endocervical cells with mucin production",
+            "Immature squamous cell in transformation zone",
+            "basal cells of exocervical squamous epithelium",
+            "Supericial mature squamous cells of exocervix",
+            "Subepithelial stromal cells and immune cells"
+        ],
+        answer: "2,3",
+    },
+    {
+        id: 40,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "질출혈로 내원한 62세 여성이다. 12년 전에 폐경되었고, 1주일 전부터 질출혈이 있다고 한다. 환자는 키 150cm, 체중 73kg이고 남편과 살고 있으며 슬하에 자녀는 없다. 자궁경부-질에 대한 세포학적 검사는 음성이었고, 자궁내막에 대한 조직검사를 시행하였다. 자궁내막기질에 비해 샘(gland)이 2배 이상 증식하였고, 세포학적 비정형성을 동반하였다. 이 질환에 대한 설명으로 맞는 것을 고르시오.",
+        options: [
+            "고종양발생위험군 HPV에 의해 발생한다.",
+            "자궁내막의 염증에 의한 반응성 증식으로, 대부분 자연적으로 소실된다.",
+            "전암병변이다.",
+            "병변의 초기에 TP53의 돌연변이를 동반한다.",
+            "진행시 장액암종(serous carcinoma)의 형태를 보인다."
+        ],
+        answer: "3",
+    },
+    {
+        id: 41,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "에스트로겐 생산이 증가하여 자궁내막에 증식성 변화를 초래할 수 있는 질환 혹은 요인들이다. 맞는 것을 3개 고르시오.",
+        options: [
+            "난소의 fibrothecoma",
+            "난소의 granulosa cell tumor",
+            "비만",
+            "장기간의 무배란",
+            "다낭난소질환"
+        ],
+        answer: "2,3,4",
+    },
+    {
+        id: 42,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "난소에 발생하는 상피기원의 종양에 대한 설명이다. 맞는 것을 2가지 고르시오.",
+        options: [
+            "20세 이전에 발생하는 종양은 악성종양의 빈도가 높다.",
+            "경계성종양과 악성종양을 구분하는 기준은 인접 기질로의 침습유무이다.",
+            "일부 종양에서 FP 혹은 B-HCG등 호르몬을 분비하여, 수술 후 경과관찰에 활용한다.",
+            "자궁내막모양암종의 일부에서 자궁내막증병터가 동반되기도 한다.",
+            "가장 흔한 유형은 점액종양이다."
+        ],
+        answer: "2,4",
+    },
+    {
+        id: 43,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "64세 여성의 좌측 난소에서 관찰된 종괴이다. 종괴는 일부에서 낭성 변화를 보였고 전체적으로 고형성부분으로 이루어져 있다. 조직학적 소견은 아래와 같다. 맞는 것을 고르시오.",
+        options: [
+            "상피기원의 종양이다.",
+            "경계성종양과 악성종양을 구분하는 기준은 인접 기질로의 침습여부이다.",
+            "자궁내막과 유방조직의 위축을 초래한다.",
+            "저등급의 악성 종양으로 수술 후 장기간의 추적관찰이 필요하다.",
+            "갑상샘 유두암종이 전이한 것이다."
+        ],
+        answer: "4",
+        image: "question_48.jpg"
+    },
+    {
+        id: 44,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "43세 여성의 자궁체부에 여러 개의 경계가 좋은 고형성 종괴가 관찰되었다. 수술로 제거 한 종괴는 방추형세포로 구성되었으며 인접한 근층의 평활근세포를 닮았다. 이 종양에 대한 설명으로 틀린 것을 고르시오.",
+        options: [
+            "크기가 크고, 단면상 출혈을 동반하는 경우 악성종양으로의 전환을 의미한다.",
+            "자궁에서 발생하는 가장 흔한 종양이다.",
+            "에스트로겐에 반응하여 가임기에 주로 발생한다.",
+            "양성 종양이다.",
+            "점막에 인접하여 생기는 경우 과다월경 혹은 불임의 원인이 되기도 한다."
+        ],
+        answer: "1",
+    },
+    {
+        id: 45,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "전자간증 혹은 자간증의 발생기전에 대한 설명이다. 맞는 것을 2개 고르시오.",
+        options: [
+            "수정란이 자궁하부에 착상하여 임신말기 혹은 분만 중에 심한 출혈을 보일 수 있다.",
+            "비정상적인 얕은 착상으로, 영양세포가 모체자궁의 혈관벽(spiral a.)을 대치하지 못한다.",
+            "혈액응고인자의 이상으로 출혈성 경향이 증가한다.",
+            "탈락막의 결손으로 태반의 융모가 자궁의 근층에 유착한다.",
+            "태반에서 생산하는 anti-angiogenic factor(sFt1, endogolin)가 정상보다 조기에 과다분비된다."
+        ],
+        answer: "2,5",
+    },
+    {
+        id: 46,
+        subject: "기초비뇨생식기학",
+        type: "OBJECTIVE",
+        question: "완전 포상기태에 대한 설명이다. 맞는 것을 고르시오.",
+        options: [
+            "염색체는 69개이다.",
+            "영양세포가 융모둘레를 따라 미만성으로 증식한다.",
+            "태아조직이 관찰된다.",
+            "융모막암종이 발생할 위험도는 2.5%로 부분 포상기태보다 낮다.",
+            "p57이 미만성으로 양성을 보인다."
+        ],
+        answer: "2",
     }
 ];
