@@ -1502,13 +1502,14 @@ export const problems: Problem[] = [
         type: "OBJECTIVE",
         question: "평소 건강하던 48세 남자가 서서히 커지고 있는 무통성 경부종괴를 주소로 내원하였다. 진찰상 얼굴의 양측 귀 앞쪽에 부종을 동반한 피하 및 심부의 다발성 결절성 종괴들이 촉진되었고, 이들에 의하여 환자의 얼굴은 비대칭적으로 보였다. 그러나 진찰상 신경학적 특이소견은 없었다. 종괴의 병리진단을 위하여 침생검(Needle biopsy)을 시행하였다. 현미경소견상 소림프구(small lymphocyte)들이 결절성으로 침윤하면서 림프구성 여포 (lymphoid follicle)을 형성하고 있고, 이들 여포들 사이에는 세정맥(venule)의 증식과 매우 많은 수의 호산구(eosinophil) 침윤이 관찰되었다. 임상 및 병리소견종합해서 가장 먼저 고려하여 할 질환은?",
         options: [
-            "Castleman disease ――― Interfollicular plasmacytosis",
-            "Angiofollicular hyperplasia ――― Tissue eosinophilia",
-            "Infectious mononucleosis ――― Immunoblastic proliferation",
-            "Kimura disease ――― Angiofollicular hyperplasia with eosinophilia",
-            "Kikuchi disease ――― Immunoblastic proliferation"
+            "(1) Castleman disease ――― Interfollicular plasmacytosis",
+            "(2) Angiofollicular hyperplasia ――― Tissue eosinophilia",
+            "(3) Infectious mononucleosis ――― Immunblastic proliferation",
+            "(4) Kimura disease ――― Angiofollicular hyperplasia with eosinophilia",
+            "(5) Kikuchi disease ――― Immunblastic proliferation"
         ],
-        answer: "4"
+        answer: "4",
+        image: "question_29.jpg"
     },
     {
         id: 2,
@@ -1516,13 +1517,14 @@ export const problems: Problem[] = [
         type: "OBJECTIVE",
         question: "전신쇠약과 B-symptom을 주소로 내원한 50세 남자에게서 단순흉부 X-ray상 종격동 종괴가 발견되었다. 추가적인 방사선과적 검사를 거친 후 종격동 종괴 절제수술을 받았다. 수술로 절제된 종괴의 육안소견(B)과 현미경소견(C)은 다음과 같다. 이 환자에서 가장 가능성 있는 병리진단과 특징적인 병태생리는 무엇인가?",
         options: [
-            "Castleman disease ――― Overproduction of interleukin 6",
-            "IgG4-related disease ――― Overproduction of IgG4",
-            "Infectious mononucleosis ――― Acute primary EBV virus infection",
-            "Kimura disease ――― Angiofollicular hyperplasia with eosinophilia",
-            "Kikuchi disease ――― Immunoblastic proliferation"
+            "(1) Castleman disease ――― Overproduction of interleukin 6",
+            "(2) IgG4-related disease ――― Overproduction of IgG4",
+            "(3) Infectious mononucleosis ――― Acute primary EBV virus infection",
+            "(4) Kimura disease ――― Angiofollicular hyperplasia with eosinophilia",
+            "(5) Kikuchi disease ――― Immunoblastic proliferation"
         ],
-        answer: "1"
+        answer: "1",
+        image: "question_30.jpg"
     },
     {
         id: 3,
@@ -1530,12 +1532,367 @@ export const problems: Problem[] = [
         type: "OBJECTIVE",
         question: "19세 남자가 10일 동안 발열과 오한이 지속되어 개인의원에서 항생체 치료를 받았으나 호전이 없었고, 3일전부터는 인후통과 두통이 생기고 피로감이 심해지면서 발열이 지속되어 본원 이비인후과에 내원하였다. 진찰상 환자는 양측 경부 림프절 비대를 보였고, 림프절 촉진 시 아파하였다. 다음 중 환자의 병력상 가장 먼저 생각해 볼 수 있는 진단과 그 진단을 위해 고려해 볼 수 있는 검사법을 고르시오.",
         options: [
-            "Kawasaki disease ――― Monospot test",
-            "Angiofollicular hyperplasia ――― Serum IL-6",
-            "Infectious mononucleosis ――― Monospot test",
-            "Angiofollicular hyperplasia with eosinophilia ――― Monospot test",
-            "Kikuchi disease ――― Serum IL-6"
+            "(1) Kawazaki disease ――― Monospot test",
+            "(2) Angiofollicular hyperplasia ――― Serum IL-6",
+            "(3) Infectious mononucleosis ――― Monospot test",
+            "(4) Angiofollicular hyperplasia with eosinophilia ――― Monospot test",
+            "(5) Kikuchi disease ――― Serum IL-6"
         ],
-        answer: "3"
+        answer: "3",
+    },
+    {
+        id: 4,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "50세 여자가 하부위장관 출혈을 주소로 소화기 내과에 내원하였다. 대장내시경 검사상 용종(그림A)이 발견되어 용종절제술을 시행 받았다. 절제된 용종은 장 점막과 점막하에 결절(그림B)을 만들면서 침윤하는 소림프구 증식(그림C)을 특징으로 하였다. 감별진단을 위한 면역조직화학염색에서 림프구들이 cyclin D1(그림D)을 발현하고 있음을 확인하였으며 이들은 여포중심(follicle center) 주변부를 팽창시키고 있었다. 다음 중 이 환자의 장에 발생한 용종의 가장 가능성 있는 병리진단과 그것의 현미경적 소견을 고르시오.",
+        options: [
+            "(1) Small lymphocytic lymphoma ――― High proliferation index",
+            "(2) Marginal zone lymphoma ――― High proliferation index",
+            "(3) Follicular lymphoma ――― Low proliferation index",
+            "(4) Mantle cell lymphoma ――― Low proliferation index",
+            "(5) Diffuse large B-cell lymphoma ――― Low proliferation index"
+        ],
+        answer: "4",
+        image: "question_31.jpg"
+    },
+    {
+        id: 5,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "서로 관련 있는 것을 짝지었다. 다음 중 잘못 짝지은 것을 고르시오.",
+        options: [
+            "(1) Plasma cell myeloma ――― Polyclonal gammopathy",
+            "(2) Mycosis fungoides ――― Pautrier microabscess",
+            "(3) Chronic lymphocytic leukemia ――― Lymphocytosis",
+            "(4) Splenic marginal zone lymphoma ――― Villous lymphocytes",
+            "(5) Mantle cell lymphoma ――― Lymphomatoid polyposis"
+        ],
+        answer: "1",
+    },
+    {
+        id: 6,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "다음 중 predominantly disseminated lymphoma/leukemia에 해당하지 않는 종양을 고르시오.",
+        options: [
+            "(1) Plasma cell myeloma",
+            "(2) Nodular lymphocyte-predominant Hodgkin lymphoma",
+            "(3) Chronic lymphocytic leukemia",
+            "(4) Small lymphocytic lymphoma",
+            "(5) Splenic marginal zone lymphoma"
+        ],
+        answer: "2",
+    },
+    {
+        id: 7,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "서로 관련 있는 것을 짝지었다. 다음 중 잘못 짝지은 것을 고르시오.",
+        options: [
+            "(1) Anaplastic large cell lymphoma ――― CD30-positive T-cell infiltration",
+            "(2) Angioimmunoblastic T-cell lymphoma ――― Follicular helper T-cell neoplasm",
+            "(3) Aggressive T-cell neoplasm ――― NK/T-cell lymphoma",
+            "(4) Burkitt lymphoma ――― Precursor B-cell lymphoma",
+            "(5) Lymphomatoid papulosis ――― EBV-positive CD56-positive lymphoma"
+        ],
+        answer: "3",
+    },
+    {
+        id: 8,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "림프종의 조직병리학적진단은 종양세포와 그 주변의 반응성림프구들이 갖고 있는 면역표현형(immunophenotype)의 분석에 의존한다. 다음 중 종양세포의 면역표현형(immunophenotype)이 다른 림프종 하나를 고르시오.",
+        options: [
+            "(1) Nodular sclerosis Hodgkin lymphoma",
+            "(2) Lymphocyte rich Hodgkin lymphoma",
+            "(3) Mixed cellularity Hodgkin lymphoma",
+            "(4) Nodular lymphocyte predominant Hodgkin lymphoma",
+            "(5) Lymphocyte depleted Hodgkin lymphoma"
+        ],
+        answer: "4",
+    },
+    {
+        id: 9,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "37세 여자가 위 통증과 소화불량을 주소 내원하여 상부위장관 내시경 검사를 받았다. 내시경 검사상 위 점막에 다발성 미란과 얕은 궤양을 동반한 결절이 발견되었다. 생검된 병변은 심한 mononuclear cell 침윤을 보였으며 이들 세포들의 크기는 주변에 있는 조직구의 핵의 크기와 비슷하거나 더 작았다. 조직병리학적 감별진단을 위한 면역조직화학염색상 이들 세포들은 CD30을 강하게 발현하고 있었다. 가장 가능성 있는 진단을 고르시오.",
+        options: [
+            "(1) Lymphocyte rich Hodgkin lymphoma",
+            "(2) Lymphocyte predominant Hodgkin lymphoma",
+            "(3) Anaplastic large cell lymphoma",
+            "(4) Nodular sclerosis Hodgkin lymphoma",
+            "(5) Extranodal marginal zone B cell lymphoma"
+        ],
+        answer: "3",
+        image: "question_32.jpg"
+    },
+    {
+        id: 14,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "골수검사의 유용성에 대한 설명이다. 틀린 것을 고르시오.",
+        options: [
+            "(1) 골수펴바른표본검사(bone marrow aspirate)는 골수내 구성세포의 형태학적 특징을 관찰하는데 유용하다.",
+            "(2) 골수생검조직검사(bone marrow biopsy)는 골수의 전체적인 조혈능력을 판단하는데 유용하다.",
+            "(3) 골수펴바른표본검사(bone marrow aspirate)는 골수내 섬유화의 정도를 평가하는데 유용하다.",
+            "(4) 50세의 성인에서 골수내 조혈세포와 지방세포의 비는 1:1이다.",
+            "(5) flow cytometry검사는 골수내 구성세포의 면역표현형을 확인함으로써 골수계종양을 진단하는데 유용하다."
+        ],
+        answer: "3",
+    },
+    {
+        id: 15,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "항원수용체 재배열과 다양화 과정이 일어나는 곳 즉, 유전적 불안정성이 높은 곳에서 일차 암유전자가 활성화되어 백혈구종양이 발생하기도 한다. 다음 중 발암유전자 돌연변이가 가장 높이 발생하는 것은 무엇인가?",
+        options: [
+            "(1) 골수내 미성숙 B 림프구",
+            "(2) 가슴샘내 미성숙 T 림프구",
+            "(3) 림프절의 배중심 B림프구",
+            "(4) 림프절내 형질세포",
+            "(5) 점막하의 선천면역세포"
+        ],
+        answer: "3",
+    },
+    {
+        id: 16,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "아래 그림은 화학물질에 의한 발암과정에서 개시인자와 촉진인자의 특징을 보여주는 실험이다. 다음의 실험 중 종양이 발생할 수 있는 경우 2가지를 고르시오.",
+        options: [
+            "(1) ①",
+            "(2) ②",
+            "(3) ③",
+            "(4) ④",
+            "(5) ⑤"
+        ],
+        answer: "2,4",
+        image: "question_33.jpg"
+    },
+    {
+        id: 17,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "아래 내용 중 A와 B에 해당하는 것을(2가지) 고르시오. 엡스타인바바이러스는 B림프구와 입인두의 상피세포에 감염된다. 감염된 B림프구 표면에 바이러스 단백이 발현되고, 이들에 의해 B림프구는 지속적으로 증식하게 된다. 특히 엡스타인바이러스의 LMP-1은 활성화된 (A) 수용체처럼 작용하여 림프구의 성장을 유도한다. 정상적인 면역을 가진 개체는 다클론성 B 림프구의 증식을 통제하여 임상적으로 증상이 없거나 한적인 증상을 보이게 된다. 하지만 말라리아가 흔한 지역에서는 개체의 면역기능이 와해되어 엡스타인바바이러스에 의해 림프구의 증식이 계속되고, 지속적으로 증식하는 B 림프구에서 추가적으로 (B)이 발생하여 버킷림프종으로의 전환이 일어난다.",
+        options: [
+            "(1) Notch",
+            "(2) CD 40",
+            "(3) EGFR",
+            "(4) t(8:14)",
+            "(5) t(9:22)"
+        ],
+        answer: "2,4",
+    },
+    {
+        id: 18,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "암종말증(cancer cachexia)에 대한 설명으로 맞는 것을 2개 고르시오.",
+        options: [
+            "(1) 기초대사율이 감소한다.",
+            "(2) 전신 염증소견 등을 나타낸다.",
+            "(3) 대부분 식사량이 감소하여 나타난다.",
+            "(4) 간과 피하조직에 지방이 과다하게 축적된다.",
+            "(5) 근육량이 감소하며 TNF, IL-1, 단백질분해유도인자(PIF) 등이 관여한다."
+        ],
+        answer: "2,5",
+    },
+    {
+        id: 19,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "종양의 등급(grade)은 다음 중 어떤 항목을 기준으로 정하는가?",
+        options: [
+            "(1) 종양의 크기",
+            "(2) 종양의 피막침습",
+            "(3) 기원한 정상세포와의 구조적 유사성 및 분화정도",
+            "(4) 종양의 혈관침습",
+            "(5) 종양의 전이"
+        ],
+        answer: "3",
+    },
+    {
+        id: 20,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "동결절편검사에 대한 설명 중 틀린 것을 고르시오.",
+        options: [
+            "(1) 포르말린에 고정하는 과정이 없다.",
+            "(2) 수술 중 종양의 성상 (악성유무)을 확인하는데 유용하다.",
+            "(3) 수술 중 절제연에 종양성 병변의 존재유무를 확인하는데 유용하다.",
+            "(4) 악성 종양에서 유사분열을 확인하는데 유용하다.",
+            "(5) 동결절편검사가 어려운 조직의 대표적인 예는 뼈와 지방조직이다."
+        ],
+        answer: "4",
+    },
+    {
+        id: 21,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "흐름세포측정(flow cytometry)검사가 면역조직화학염색(immunohistochemical stain)에 비해 더 유용한 경우를 고르시오.",
+        options: [
+            "(1) 급성 백혈병에서 골수내 종양세복의 면역표현형을 분석하고자 할 때",
+            "(2) 위장에 발생한 미분화악성종양의 분류 및 진단시",
+            "(3) 유방암조직에서 호르몬 수용체의 발현을 평가할 때",
+            "(4) 림프절에 전이한 암종에서 원발부위를 찾고자 할 때",
+            "(5) 유방암조직에서 HER2 단백의 발현을 평가할 때"
+        ],
+        answer: "1",
+    },
+    {
+        id: 22,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "종양에서 해당 유전자의 전위 혹은 증폭을 확인하기 위해 사용하는 검사법은 무엇인가?",
+        options: [
+            "(1) 면역형광검사 (Immunofluorescence)",
+            "(2) 면역조직화학염색 (Immunohistochemistry)",
+            "(3) 형광제자리부합법 (Fluorescence in situ hybridization)",
+            "(4) 중합효소연쇄반응 (Polymerase chain reaction)",
+            "(5) DNA 메칠화검사 (DNA methylation analysis)"
+        ],
+        answer: "3",
+    },
+    {
+        id: 24,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "2세 여아가 최근 예전에 비해 활발하게 놀지 못하고, 무릎과 팔에 쉽게 멍이 든다고 한다. 백혈구 95,000/μL (정상 4,000~11,000), 혈색소 5.3g/dL (정상 11~14.2), 헤마토크릿 13.6% (정상 33~39%), 혈소판 80,000/μL (150~450x10³/μL)이다. 골수내 조혈세포의 세포밀도는 100%였다. 진단은 무엇인가?",
+        options: [
+            "(1) Chronic lymphocytic leukemia",
+            "(2) Acute myeloid leukemia",
+            "(3) T-cell acute lymphoblastic lymphoma",
+            "(4) B-cell acute lymphoblastic lymphoma",
+            "(5) Multiple myeloma"
+        ],
+        answer: "4",
+        image: "question_34.jpg"
+    },
+    {
+        id: 25,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "각 종양과 관련된 유전자 변이와 그 산물을 연결하였다. 맞는 것을 2개 고르시오.",
+        options: [
+            "(1) Burkitt lymphoma t(8:14) c-myc 과발현",
+            "(2) Chronic lymphocytic leukemia t(9:22) Bcr-abl tyrosine kinase 발현",
+            "(3) Follicular lymphoma t(14:18) - bcl2 과발현",
+            "(4) Extranodal marginal zone lymphoma t(11:14) cyclin D1 과발현",
+            "(5) Multiple myeloma JAK2 돌연변이 면역글로불린과 그 성분의 과생산"
+        ],
+        answer: "1,3",
+    },
+    {
+        id: 26,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "저등급의 림프종으로 경과관찰시 광범위큰B세포림프종(DLBCL)으로 전환할 수 있는 것은?",
+        options: [
+            "(1) Mycosis fungoides",
+            "(2) Extranodal marginal zone lymphoma",
+            "(3) Burkitt lymphoma",
+            "(4) Langerhans cell histiocytosis",
+            "(5) Solitary plasmacytoma"
+        ],
+        answer: "2",
+    },
+    {
+        id: 27,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "68세 남자가 어지러워 쓰러진 후 허리가 아프다며 내원하였다. 혈액검사에서 백혈구 5,500/mm³, 혈색소 9.3g/dl, 혈소판 140,000/mm³, 총단백 9.8g/dl, 알부민 3.2g/dl, 칼슘 11mg/dL(정상: 8.4-10.2)이고 소변에 단백뇨가 검출되었다. 진단을 위하여 어떤 검사를 하겠는가?",
+        options: [
+            "(1) 24시간 요단백 및 신사구체 생검",
+            "(2) 혈액배양",
+            "(3) 두경부 PET-CT",
+            "(4) 부갑상샘 호르몬 (parathyroid hormone) 수치",
+            "(5) 혈청과 소변 단백에 대한 전기영동검사"
+        ],
+        answer: "5",
+    },
+    {
+        id: 28,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "45세 남자가 입맛이 없고, 6개월 사이에 체중이 5kg감소하여 내원하였다. 백혈구 121,000/μL, 혈색소 8.5g/dl, 혈소판 115,000/μL이다. 말초혈액검사에서 모세포(4%)와 함께 아래 그림과 같은 소견이 관찰되었다. 진단을 위하여 시행할 검사 중 가장 적합한 것을 고르시오.",
+        options: [
+            "(1) 말초혈액 백혈구의 LAP score",
+            "(2) 골수세포에서 Ig gene rearrangement",
+            "(3) 골수세포에서 TCR gene rearrangement",
+            "(4) 골수세포에서 t(9:22) 검사",
+            "(5) 흉부 및 복부 CT"
+        ],
+        answer: "4",
+        image: "question_35.jpg"
+    },
+    {
+        id: 29,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "화학발암과정에 대한 설명이다. 맞는 것을 고르시오.",
+        options: [
+            "(1) 개시인자가 숙주세포에 치명적인 손상을 줄 때 발암효과가 크다.",
+            "(2) 촉진인자없이 개시인자 단독으로는 종양을 형성할 수 없다.",
+            "(3) 촉진인자에 장기간 반복적으로 노출되면 DNA에 손상이 발생한다.",
+            "(4) 개시인자는 DNA내 인접한 피리미딘끼리 결합하게 하여 이량체를 만든다.",
+            "(5) 직접작용 화학발암물질은 사이토크롬 P-450 의존 산화화효소군에 의해 활성화된다."
+        ],
+        answer: "2",
+    },
+    {
+        id: 30,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "수술 중 동결절편검사를 의뢰하는 예로 가장 바람직한 것을 고르시오.",
+        options: [
+            "(1) 수술 중 자궁내막증이 의심되는 난소조직에서 진단을 확인하고자 할 때",
+            "(2) 장경 5cm인 GIST의심 종괴에서 유사분열 수를 평가하고자 할 때",
+            "(3) 백혈병이 의심되는 환자에서 골수조직내 구성세포의 형태를 관찰하고자 할때",
+            "(4) 위장의 샘암종으로 진단된 환자에서, 수술시 절제면에서 종양유무를 평가하고자 할 때",
+            "(5) 임상적으로 전이가 의심되는 결장암환자에서 조직진단을 신속히 하고자 할때"
+        ],
+        answer: "4",
+    },
+    {
+        id: 31,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "유전자의 전위 및 증폭을 확인하는데 도움이 되는 검사방법은 무엇인가?",
+        options: [
+            "(1) 면역형광검사(immunofluorescence)",
+            "(2) 면역조직화학염색(Immunohistochemistry)",
+            "(3) 형광제자리부합법 (Fluorescence in situ hybridization)",
+            "(4) 웨스턴블롯 (Western blot)",
+            "(5) 흐름세포측정 (Flowcytometry)"
+        ],
+        answer: "3",
+    },
+    {
+        id: 32,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "면역조직화학염색의 적응증이다. 아닌 것을 고르시오.",
+        options: [
+            "(1) 미분화 악성종양의 진단 및 분류시",
+            "(2) 전이종양에서 일차병터를 찾고자 할 때",
+            "(3) 치료 후 남아있는 소량의 림프조직에서 TCR 혹은 의 클론성을 확인하고 싶을 때",
+            "(4) 유방암조직에서 호르몬수용체나 HER2의 발현을 보고자 할때",
+            "(5) 림프종이 발생한 림프절 조직에서 종양세포의 면역표현형을 알고 싶을 때"
+        ],
+        answer: "3",
+    },
+    {
+        id: 33,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "30세 남자가 최근 2개월간 5kg의 체중감소가 있어 내원하였다. 대장내시경 검사상 우측 상행결장에 장경 3cm의 종괴가 관찰되었으며 조직검사결과 샘암종이었다. 가족력상 외할아버지와 아버지가 대장암, 할아버지가 간암을 앓은 이력이 있다. 미소부수체불안정에 의한 발암을 확인하기 위하여 일차적으로 MMR 단백의 발현여부를 보고자한다. 다음 중 해당되는 것을 2개 고르시오.",
+        options: [
+            "(1) APC",
+            "(2) MLH1",
+            "(3) PMS2",
+            "(4) CDH1",
+            "(5) TP53"
+        ],
+        answer: "2,3",
     }
 ];
