@@ -1356,6 +1356,20 @@ export const problems: Problem[] = [
         answer: "4",
     },
     {
+        id: 12,
+        subject: "기초소화기학",
+        type: "OBJECTIVE",
+        question: "다음 장 결핵에 대한 설명 중 옳은 것은?",
+        options: [
+            "결핵 육아종은 거의 모든 예에서 관찰된다.",
+            "가장 흔히 침범하는 부위는 회맹부이다.",
+            "장 결핵 환자의 8-14%는 비활동성 결핵과 동반한다.",
+            "주로 소아나 노인층에서 발생한다.",
+            "1950년 이후 꾸준히 증가 추세에 있었으나 항결핵제의 개발로 감소 추세에 있다."
+        ],
+        answer: "2",
+    },
+    {
         id: 13,
         subject: "기초소화기학",
         type: "OBJECTIVE",
@@ -1754,6 +1768,20 @@ export const problems: Problem[] = [
         answer: "3",
     },
     {
+        id: 23,
+        subject: "기초혈액종양학",
+        type: "OBJECTIVE",
+        question: "소포림프종(follicular lymphoma)에서 관찰되는 소견이다. 맞는 것을 고르시오.",
+        options: [
+            "탐식작용이 활발한 다수의 큰포식세포가 관찰된다.",
+            "결절은 중심세포(centrocyte)와 중심모세포(centroblast)가 다양한 비율로 섞여있다.",
+            "결절내 구성세포는 bcl2에 음성을 보인다.",
+            "결절내 구성세포의 증식력은 80~90%이다.",
+            "결절내 다수의 세포자멸사가 관찰된다."
+        ],
+        answer: "2",
+    },
+    {
         id: 24,
         subject: "기초혈액종양학",
         type: "OBJECTIVE",
@@ -2050,7 +2078,7 @@ export const problems: Problem[] = [
             "mesangial matrix",
             "capillary fenestration"
         ],
-        answer: "2",
+        answer: "1",
     },
     {
         id: 12,
@@ -2480,7 +2508,7 @@ export const problems: Problem[] = [
             "장기간의 무배란",
             "다낭난소질환"
         ],
-        answer: "2,3,4",
+        answer: "2,3,5",
     },
     {
         id: 42,
