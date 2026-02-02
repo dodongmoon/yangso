@@ -1680,7 +1680,7 @@ export const problems: Problem[] = [
             "(4) ④",
             "(5) ⑤"
         ],
-        answer: "2,4",
+        answer: "1,2",
         image: "question_33.jpg"
     },
     {
