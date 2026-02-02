@@ -3,13 +3,19 @@ import type { Problem, ProblemType } from '../data/problems';
 
 interface HomeProps {
     problems: Problem[];
-    onStart: (config: { subject: string; type: ProblemType | 'ALL'; order: 'SEQUENTIAL' | 'RANDOM' }) => void;
+    onStart: (config: {
+        subject: string;
+        type: ProblemType | 'ALL';
+        order: 'SEQUENTIAL' | 'RANDOM';
+        fontSize: 'SMALL' | 'MEDIUM' | 'LARGE';
+    }) => void;
 }
 
 export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
     const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
     const [selectedType, setSelectedType] = useState<ProblemType | 'ALL' | null>(null);
     const [selectedOrder, setSelectedOrder] = useState<'SEQUENTIAL' | 'RANDOM' | null>(null);
+    const [selectedFontSize, setSelectedFontSize] = useState<'SMALL' | 'MEDIUM' | 'LARGE'>('LARGE');
 
     const subjects = useMemo(() => Array.from(new Set(problems.map((p) => p.subject))), [problems]);
 
@@ -25,7 +31,12 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
 
     const handleStart = () => {
         if (selectedSubject && selectedType && selectedOrder) {
-            onStart({ subject: selectedSubject, type: selectedType, order: selectedOrder });
+            onStart({
+                subject: selectedSubject,
+                type: selectedType,
+                order: selectedOrder,
+                fontSize: selectedFontSize
+            });
         }
     };
 
@@ -114,6 +125,42 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
                                     }`}
                             >
                                 랜덤
+                            </button>
+                        </div>
+                    </div>
+                )}
+
+                {/* 4. Font Size Selection */}
+                {selectedOrder && (
+                    <div className="space-y-4 animate-fade-in">
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">4. 글자 크기 선택</label>
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => setSelectedFontSize('SMALL')}
+                                className={`flex-1 p-3 rounded-xl transition-all duration-300 ${selectedFontSize === 'SMALL'
+                                    ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                작게
+                            </button>
+                            <button
+                                onClick={() => setSelectedFontSize('MEDIUM')}
+                                className={`flex-1 p-3 rounded-xl transition-all duration-300 ${selectedFontSize === 'MEDIUM'
+                                    ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                보통
+                            </button>
+                            <button
+                                onClick={() => setSelectedFontSize('LARGE')}
+                                className={`flex-1 p-3 rounded-xl transition-all duration-300 ${selectedFontSize === 'LARGE'
+                                    ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                크게
                             </button>
                         </div>
                     </div>

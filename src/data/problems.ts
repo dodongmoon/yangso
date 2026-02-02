@@ -1603,11 +1603,11 @@ export const problems: Problem[] = [
         type: "OBJECTIVE",
         question: "서로 관련 있는 것을 짝지었다. 다음 중 잘못 짝지은 것을 고르시오.",
         options: [
-            "(1) Anaplastic large cell lymphoma ――― CD30-positive T-cell infiltration",
-            "(2) Angioimmunoblastic T-cell lymphoma ――― Follicular helper T-cell neoplasm",
-            "(3) Aggressive T-cell neoplasm ――― NK/T-cell lymphoma",
-            "(4) Burkitt lymphoma ――― Precursor B-cell lymphoma",
-            "(5) Lymphomatoid papulosis ――― EBV-positive CD56-positive lymphoma"
+            "Anaplastic large cell lymphoma ――― Aggressive T-cell neoplasm",
+            "Angioimmunoblastic T-cell lymphooma ――― Follicular helper T-cell neoplasm",
+            "Burkitt lymphoma ――― Precursor B-cell lymphoma",
+            "Lymphomatoid papulosis ――― CD30-positive T-cell infiltration",
+            "NK/T-cell lymphoma ――― EBV-positive CD56-positive lymphoma"
         ],
         answer: "3",
     },

@@ -6,9 +6,10 @@ interface QuestionCardProps {
     onNext: () => void;
     onPrev: () => void;
     isFirst: boolean;
+    fontSize: 'SMALL' | 'MEDIUM' | 'LARGE';
 }
 
-export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onPrev, isFirst }) => {
+export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onPrev, isFirst, fontSize }) => {
     // Store selected indices as an array
     const [selectedOptions, setSelectedOptions] = useState<number[]>([]);
     const [showAnswer, setShowAnswer] = useState(false);
@@ -109,7 +110,9 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onP
                             <span className="text-indigo-300 text-sm font-medium ml-2">문항 {problem.id}번</span>
                         </div>
                     </div>
-                    <h2 className="text-2xl font-bold text-white leading-relaxed">
+                    <h2 className={`font-bold text-white leading-relaxed ${fontSize === 'SMALL' ? 'text-lg' :
+                            fontSize === 'LARGE' ? 'text-2xl' : 'text-xl'
+                        }`}>
                         {problem.question}
                     </h2>
                     {isObjective && correctIndices.length > 1 && !showAnswer && (
