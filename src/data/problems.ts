@@ -1979,7 +1979,7 @@ export const problems: Problem[] = [
             "HbA1c level",
             "24hr total proteinuria"
         ],
-        answer: "4",
+        answer: "3",
         image: "question_38.jpg"
     },
     {
