@@ -7,9 +7,10 @@ interface QuestionCardProps {
     onPrev: () => void;
     isFirst: boolean;
     fontSize: 'SMALL' | 'MEDIUM' | 'LARGE';
+    optionOrder: 'SEQUENTIAL' | 'RANDOM';
 }
 
-export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onPrev, isFirst, fontSize }) => {
+export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onPrev, isFirst, fontSize, optionOrder }) => {
     // Store selected indices as an array
     const [selectedOptions, setSelectedOptions] = useState<number[]>([]);
     const [showAnswer, setShowAnswer] = useState(false);
@@ -20,12 +21,47 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onP
 
     // Parse correct answers from string (e.g. "1" or "1,5") -> 0-indexed ints [0] or [0,4]
     // User data is 1-based, so subtract 1.
-    const correctIndices = React.useMemo(() => {
+    const originalCorrectIndices = React.useMemo(() => {
         if (!isObjective) return [];
         return problem.answer.split(',')
             .map(s => parseInt(s.trim()) - 1)
             .filter(n => !isNaN(n));
     }, [problem.answer, isObjective]);
+
+    // Handle shuffling
+    const { displayedOptions, correctIndices } = React.useMemo(() => {
+        if (!isObjective || !problem.options) {
+            return { displayedOptions: [], correctIndices: [] };
+        }
+
+        if (optionOrder === 'RANDOM') {
+            // Create an array of indices [0, 1, 2, ...]
+            const indices = problem.options.map((_, i) => i);
+            // Shuffle indices
+            for (let i = indices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [indices[i], indices[j]] = [indices[j], indices[i]];
+            }
+
+            // Map options to new order
+            const newOptions = indices.map(i => problem.options![i]);
+
+            // Map correct answers to new positions
+            // indices[newPos] = originalPos
+            // We need to find newPos where originalPos is in originalCorrectIndices
+            const newCorrectIndices = indices
+                .map((originalPos, newPos) => ({ originalPos, newPos }))
+                .filter(({ originalPos }) => originalCorrectIndices.includes(originalPos))
+                .map(({ newPos }) => newPos);
+
+            return { displayedOptions: newOptions, correctIndices: newCorrectIndices };
+        }
+
+        return {
+            displayedOptions: problem.options,
+            correctIndices: originalCorrectIndices
+        };
+    }, [problem.options, originalCorrectIndices, optionOrder, isObjective]);
 
     const handleOptionClick = (idx: number) => {
         if (showAnswer) return;
@@ -111,7 +147,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onP
                         </div>
                     </div>
                     <h2 className={`font-bold text-white leading-relaxed ${fontSize === 'SMALL' ? 'text-lg' :
-                            fontSize === 'LARGE' ? 'text-2xl' : 'text-xl'
+                        fontSize === 'LARGE' ? 'text-2xl' : 'text-xl'
                         }`}>
                         {problem.question}
                     </h2>
@@ -142,7 +178,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ problem, onNext, onP
                 <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
                     {isObjective ? (
                         <div className="space-y-3">
-                            {problem.options?.map((opt, idx) => {
+                            {displayedOptions.map((opt, idx) => {
                                 const isSelected = selectedOptions.includes(idx);
                                 const isCorrect = correctIndices.includes(idx);
 

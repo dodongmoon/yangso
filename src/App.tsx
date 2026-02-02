@@ -11,6 +11,7 @@ interface QuizConfig {
   subject: string;
   type: ProblemType | 'ALL';
   order: 'SEQUENTIAL' | 'RANDOM';
+  optionOrder: 'SEQUENTIAL' | 'RANDOM';
   fontSize: 'SMALL' | 'MEDIUM' | 'LARGE';
 }
 

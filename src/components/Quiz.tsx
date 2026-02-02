@@ -8,6 +8,7 @@ interface QuizProps {
         subject: string;
         type: ProblemType | 'ALL';
         order: 'SEQUENTIAL' | 'RANDOM';
+        optionOrder: 'SEQUENTIAL' | 'RANDOM';
         fontSize: 'SMALL' | 'MEDIUM' | 'LARGE';
     };
     onExit: () => void;
@@ -115,6 +116,7 @@ export const Quiz: React.FC<QuizProps> = ({ problems, config, onExit }) => {
                     onPrev={handlePrev}
                     isFirst={currentIndex === 0}
                     fontSize={config.fontSize}
+                    optionOrder={config.optionOrder}
                 />
             </div>
         </div>

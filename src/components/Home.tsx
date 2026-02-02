@@ -7,6 +7,7 @@ interface HomeProps {
         subject: string;
         type: ProblemType | 'ALL';
         order: 'SEQUENTIAL' | 'RANDOM';
+        optionOrder: 'SEQUENTIAL' | 'RANDOM';
         fontSize: 'SMALL' | 'MEDIUM' | 'LARGE';
     }) => void;
 }
@@ -15,6 +16,7 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
     const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
     const [selectedType, setSelectedType] = useState<ProblemType | 'ALL' | null>(null);
     const [selectedOrder, setSelectedOrder] = useState<'SEQUENTIAL' | 'RANDOM' | null>(null);
+    const [selectedOptionOrder, setSelectedOptionOrder] = useState<'SEQUENTIAL' | 'RANDOM' | null>(null);
     const [selectedFontSize, setSelectedFontSize] = useState<'SMALL' | 'MEDIUM' | 'LARGE'>('LARGE');
 
     const subjects = useMemo(() => Array.from(new Set(problems.map((p) => p.subject))), [problems]);
@@ -30,11 +32,12 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
     }, [selectedSubject, problems]);
 
     const handleStart = () => {
-        if (selectedSubject && selectedType && selectedOrder) {
+        if (selectedSubject && selectedType && selectedOrder && selectedOptionOrder) {
             onStart({
                 subject: selectedSubject,
                 type: selectedType,
                 order: selectedOrder,
+                optionOrder: selectedOptionOrder,
                 fontSize: selectedFontSize
             });
         }
@@ -130,10 +133,37 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
                     </div>
                 )}
 
-                {/* 4. Font Size Selection */}
+                {/* 4. Option Selection */}
                 {selectedOrder && (
                     <div className="space-y-4 animate-fade-in">
-                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">4. 글자 크기 선택</label>
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">4. 선지 선택</label>
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => setSelectedOptionOrder('SEQUENTIAL')}
+                                className={`flex-1 p-3 rounded-xl transition-all duration-300 ${selectedOptionOrder === 'SEQUENTIAL'
+                                    ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                원래대로
+                            </button>
+                            <button
+                                onClick={() => setSelectedOptionOrder('RANDOM')}
+                                className={`flex-1 p-3 rounded-xl transition-all duration-300 ${selectedOptionOrder === 'RANDOM'
+                                    ? 'bg-rose-500 text-white shadow-lg shadow-rose-500/30'
+                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10'
+                                    }`}
+                            >
+                                랜덤
+                            </button>
+                        </div>
+                    </div>
+                )}
+
+                {/* 5. Font Size Selection */}
+                {selectedOptionOrder && (
+                    <div className="space-y-4 animate-fade-in">
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">5. 글자 크기 선택</label>
                         <div className="flex gap-3">
                             <button
                                 onClick={() => setSelectedFontSize('SMALL')}
@@ -168,7 +198,7 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
 
                 <button
                     onClick={handleStart}
-                    disabled={!selectedSubject || !selectedType || !selectedOrder}
+                    disabled={!selectedSubject || !selectedType || !selectedOrder || !selectedOptionOrder}
                     className="w-full py-4 text-lg font-bold rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-xl shadow-blue-500/20 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-[1.02] active:scale-[0.98] transition-all"
                 >
                     문제 풀기 시작
