@@ -14,22 +14,15 @@ interface HomeProps {
 
 export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
     const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
-    const [selectedType, setSelectedType] = useState<ProblemType | 'ALL' | null>(null);
+    // Default to OBJECTIVE as requested
+    const [selectedType] = useState<ProblemType | 'ALL'>('OBJECTIVE');
     const [selectedOrder, setSelectedOrder] = useState<'SEQUENTIAL' | 'RANDOM' | null>(null);
     const [selectedOptionOrder, setSelectedOptionOrder] = useState<'SEQUENTIAL' | 'RANDOM' | null>(null);
     const [selectedFontSize, setSelectedFontSize] = useState<'SMALL' | 'MEDIUM' | 'LARGE'>('LARGE');
 
     const subjects = useMemo(() => Array.from(new Set(problems.map((p) => p.subject))), [problems]);
 
-    const counts = useMemo(() => {
-        if (!selectedSubject) return { subjective: 0, objective: 0, total: 0 };
-        const filtered = problems.filter((p) => p.subject === selectedSubject);
-        return {
-            subjective: filtered.filter((p) => p.type === 'SUBJECTIVE').length,
-            objective: filtered.filter((p) => p.type === 'OBJECTIVE').length,
-            total: filtered.length,
-        };
-    }, [selectedSubject, problems]);
+
 
     const handleStart = () => {
         if (selectedSubject && selectedType && selectedOrder && selectedOptionOrder) {
@@ -72,44 +65,12 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
                     </div>
                 </div>
 
-                {/* 2. Type Selection (Only shows after subject is selected) */}
+
+
+                {/* 2. Order Selection */}
                 {selectedSubject && (
                     <div className="space-y-4 animate-fade-in">
-                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">2. 유형 선택</label>
-                        <div className="grid grid-cols-1 gap-2">
-                            <button
-                                onClick={() => setSelectedType('OBJECTIVE')}
-                                disabled={counts.objective === 0}
-                                className={`p-4 rounded-xl flex justify-between items-center transition-all duration-300 ${selectedType === 'OBJECTIVE'
-                                    ? 'bg-purple-500 text-white shadow-lg shadow-purple-500/30'
-                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed'
-                                    }`}
-                            >
-                                <span>객관식</span>
-                                <span className="bg-white/20 px-2 py-1 rounded text-xs">{counts.objective} 문제</span>
-                            </button>
-
-                            <button
-                                onClick={() => setSelectedType('SUBJECTIVE')}
-                                disabled={counts.subjective === 0}
-                                className={`p-4 rounded-xl flex justify-between items-center transition-all duration-300 ${selectedType === 'SUBJECTIVE'
-                                    ? 'bg-pink-500 text-white shadow-lg shadow-pink-500/30'
-                                    : 'bg-white/5 text-indigo-100 hover:bg-white/10 disabled:opacity-50 disabled:cursor-not-allowed'
-                                    }`}
-                            >
-                                <span>주관식</span>
-                                <span className="bg-white/20 px-2 py-1 rounded text-xs">{counts.subjective} 문제</span>
-                            </button>
-
-                            {/* 'ALL' option removed as requested */}
-                        </div>
-                    </div>
-                )}
-
-                {/* 3. Order Selection */}
-                {selectedType && (
-                    <div className="space-y-4 animate-fade-in">
-                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">3. 순서 선택</label>
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">2. 순서 선택</label>
                         <div className="flex gap-3">
                             <button
                                 onClick={() => setSelectedOrder('SEQUENTIAL')}
@@ -133,10 +94,10 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
                     </div>
                 )}
 
-                {/* 4. Option Selection */}
+                {/* 3. Option Selection */}
                 {selectedOrder && (
                     <div className="space-y-4 animate-fade-in">
-                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">4. 선지 선택</label>
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">3. 선지 선택</label>
                         <div className="flex gap-3">
                             <button
                                 onClick={() => setSelectedOptionOrder('SEQUENTIAL')}
@@ -160,10 +121,10 @@ export const Home: React.FC<HomeProps> = ({ problems, onStart }) => {
                     </div>
                 )}
 
-                {/* 5. Font Size Selection */}
+                {/* 4. Font Size Selection */}
                 {selectedOptionOrder && (
                     <div className="space-y-4 animate-fade-in">
-                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">5. 글자 크기 선택</label>
+                        <label className="text-sm font-semibold text-indigo-300 uppercase tracking-wider">4. 글자 크기 선택</label>
                         <div className="flex gap-3">
                             <button
                                 onClick={() => setSelectedFontSize('SMALL')}
